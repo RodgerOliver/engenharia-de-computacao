@@ -1,0 +1,218 @@
+---
+redirect_from: "/1-semestre/fundamentos-da-matematica/"
+---
+
+# [Home](/engenharia-da-computacao/)
+
+# Fundamentos da Matemática - Prof. Eurico - [(Apostila)](https://github.com/RodgerOliver/engenharia-da-computacao/raw/master/1-semestre/apostilas/apostila-fundamentos-da-matematica-1-semestre-2019.pdf)
+
+**Notas**
+- `x² + 5x + 3`          expressão algébrica
+- `x² + 5x + 3 = 0`      equação
+- `f(x) = x² + 5x + 3`   função
+
+## [Conjuntos Numéricos](https://www.todamateria.com.br/conjuntos-numericos/)
+
+> `*` representa que o conjunto não possui o elemento nulo, o *0*.
+
+Todos os conjuntos possuem seus subconjuntos.
+
+### Números Naturais ( N )
+
+Esse conjunto possui números sem vírgula (inteiros) e positivos. Nele cada elemento é igual ao número antecessor somado a um, exceto o *0*. A função desse conjunto é contar e ordenar.
+
+**Exemplos**
+
+- `N = { ..., 0, 1, 2, 3, 4, 5, ... }`
+- `N* = { ..., 1, 2, 3, 4, 5, ... }`
+
+### Números Inteiros ( Z )
+
+Esse conjunto possui números positivos e negativos. Os números que estão à mesma distância do *0* são chamados de opostos ou simétricos.
+
+![Reta Numérica Inteiros](../imagens/reta-numerica-inteiros.jpg)
+
+**Exemplos**
+
+- `Z = { ..., -3, -2, -1, 0, 1, 2, 3, ... }`
+- `Z* = { ..., -3, -2, -1, 1, 2, 3, ... }`
+
+### Números Racionais ( Q )
+
+> A letra que representa o conjunto dos números racionais, ou seja, o "Q" é derivado da palavra inglesa "quotient", que significa quociente.
+
+Esse conjunto possui números que podem ser colocados na forma de fração *p/q*, sendo *p* e *q* inteiros e *q* diferente de *0*.
+
+**Exemplo**
+
+- `Q = { 0, ±1, ±1/2, ±1/3, ..., ±2, ±2/3, ±2/5, ..., ±3, ±3/2, ±3/4, ... }`
+
+### Números Irracionais ( I )
+
+Esse conjunto possui números que não são exatos.
+
+**Exemplo**
+
+- `I = { ..., -√2, 0, 1/2, 1, √2, √3, π, e , ... }`
+
+### Números Reais ( R )
+
+> A representação dos números é correspondente ao número de ângulos contidos neles.
+
+Esse conjunto é formado pelos números racionais e irracionais.
+
+![Diagrama dos Conjuntos Numéricos](../imagens/diagrama-conjuntos-numericos.jpg)
+
+### Intervalos Numéricos
+
+Os intervalos são subconjuntos dos números reais.
+
+#### Relação de Ordem
+
+- `a = b`
+- `c > d`
+- `e < f`
+
+#### Tipos de Intervalos
+
+##### Intervalo Aberto
+
+![Intervalo Aberto](../imagens/intervalo-aberto.jpg)
+
+##### Intervalo Fechado
+
+![Intervalo Aberto](../imagens/intervalo-fechado.jpg)
+
+##### Intervalo Semi-aberto à Direita
+
+![Intervalo Semi-aberto à Direita](../imagens/intervalo-aberto-direita.jpg)
+
+##### Intervalo Semi-aberto à Esquerda
+
+![Intervalo Semi-aberto à Esquerda](../imagens/intervalo-aberto-esquerda.jpg)
+
+##### Intervalos Infinitos
+
+![Intervalo Infinitos](../imagens/intervalo-infinito.jpg)
+
+
+#### Representação Algébrica
+
+- Conjunto
+  - `{ x ∈ R | 2 < x < 4 }`
+- Intervalo
+  - `] 2, 4 [` ou `) 2, 4 (`
+- Os números pode ser separados por vírgulas (`,`) ou ponto e vírgula (`;`).
+
+## Dízimas Periódicas
+
+Uma dízima periódica é um número racional onde existe uma repetição infinita de um ou mais algarismos em grupo, ordenados, sempre na mesma posição, chamado de **período**. A parte que está entre vírgulas e o período é parte não periódica de uma dízima.
+
+- **Dízimas periódicas simples**
+  - `0,8888...`
+  - `1,232323...`
+- **Dízimas periódicas compostas**
+  - `0,3424242...`
+  - `1,7898989...`
+
+### Geratriz de Dízimas Periódicas
+
+A geratriz de uma dízima é a sua representação na forma de fração.
+
+Para fazer a transformação da dízima `0,1444...`:
+
+- Determine `x` como a dízima com somente o período após a vírgula.
+  - `10x = 1,444...`
+- Passe um período da dízima para antes da vírgula.
+  - `100x = 14,444...`
+- Faça a subtração das expressões.
+  - `90x = 13`
+- Isole o `x`.
+  - `x = 13/90`
+
+Outra forma de fazer a transformação:
+
+`n/d`
+
+- Dízima simples
+  - `n` é o período.
+  - `d` é tantos *noves* quantos forem os números de algarismos do período.
+  - `0,373737... = 37/99`
+- Dízima composta
+  - `n` = parte não periódica seguida do período menos a parte não periódica.
+  - `d` = tantos *noves* quantos forem os algarismos do período seguidos de tantos *zeros* quantos forem os algarismos da parte não periódica após a vírgula.
+  - `0,1252525... = 125-1/990 = 124/990`
+  - `12,477777... = 1247-124/9000 = 1123/90`
+
+## Produtos Notáveis
+
+> `-5² = -25`
+
+> `(-5)² = 25`
+
+Os produtos notáveis server para facilitar cálculos e poupar trabalho.
+
+1. `(a+b).(a-b) = a²-b²`
+2. `(a+b)² = a² + 2ab + b²`
+3. `(a-b)² = a² - 2ab + b²`
+4. `(a+b)³ = a³ + 3a²b + 3ab² + b³`
+5. `(a-b)³ = a³ - 3a²b + 3ab² - b³`
+6. `(a+b+c)² = a² + b² + c² + 2(ab + ac + bc)`
+
+### Produtos Especiais
+
+7. `a³-b³ = (a-b) (a² + ab + b²)`
+8. `a³+b³ = (a+b) (a² - ab + b²)`
+
+## Fatoração
+
+Fatorar significa transformar soma e subtração em multiplicação. Seu propósito é facilitar a expressão algébrica.
+
+### Fator Comum
+
+Expressão algébrica formada por parcelas, sendo que um mesmo fator sempre aparece em todas elas.
+
+**Exemplo**
+
+- `ax + bx = x(a+b)`
+
+### Agrupamento
+
+Em geral acontece com 4 entes matemáticos e não existe um fator comum único. Chama-se agrupamento pois é agrupado em "pedaços" que tem um fator comum.
+
+
+**Exemplo**
+
+- `mx + px + my + py = x(m + p) + y(m + p) = (x + y).(m + p)`
+
+### Trinômio do Quadrado Perfeito
+
+**Exemplos**
+
+- `a² + 2ab + b² = (a+b)²`
+- `a² - 2ab + b² = (a-b)²`
+
+### Trinômio do 2° Grau
+
+**Exemplo**
+
+- `ax² + bx + c = a(x¹*-x)(x-x²*)`
+
+Onde x¹\* e x²\* são as  raízes (resultado da equação de 2° grau).
+
+#### Soma e produto
+
+- Quando `a = 1`.
+- `x² - sx + p`.
+- p = produto de dois números que resulta em `p`.
+- s = soma dos números que multiplicados resultam em `p` com o sinal do `s` invertido.
+
+**Exemplo**
+
+`x² - 6x + 8`
+
+- `p  = 8`
+- `s = -6`
+- `2x4 = 8`
+- `2+4 = 6`
+- `x¹* = 2 e x²* = 6`
