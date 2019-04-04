@@ -136,6 +136,8 @@ Escreva o vetor `u` como combinação linear dos vetores `v` e `w`.
 
 ## Sistemas de Equações
 
+> Representação: ...}
+
 ### Método da Substituição
 
 Esse método consiste em escolher uma das equações e isolarmos uma das incógnitas, para determinar o seu valor em relação a outra incógnita. Depois, substituímos esse valor na outra equação.
@@ -154,7 +156,57 @@ Método para resolver sistemas lineares.
 
 ![Regra de Cramer](https://i.imgur.com/BXdYFYF.jpg)
 
+## Matrizes
+
+> Representação: [] ou ()
+
+> Diagonal principal: i=j
+
+Matriz é uma tabela de ordem `mxn`.
+
+- m:		número de linhas.
+- n:		número de colunas.
+- aij:	elementos da matriz.
+- i:		posição da linha.
+- j:		posição da coluna.
+- mxn:	ordem da matriz.
+- A:		matriz.
+
+### Adição e Subtração de Matrizes
+
+Pode ser feita somente com matrizes de mesma ordem.
+
+A(aij)mxn ± B(aij)mxn = C(aij)mxn
+
+### Multiplicação de Matrizes
+
+> Escalar é um número que aumenta ou diminui algo.
+
+O produto de uma escalar por uma matriz tem como resultado todos os elementos da matriz multiplicados pela escalar.
+
+A multiplicação entre matrizes ocorre da seguinte maneira: `Amxn . Bnxp = Cmxp`.
+
+![Multiplicação de Matrizes](https://i.imgur.com/tOEvP8O.png)
+
+### Matriz Transposta
+
+A(aij)mxn = At(aji)nxm
+
+### Matriz Identidade
+
+In = aij = {1, se i=j; 0, se i≠j
+
+### Matriz Inversa de Ordem 2
+
+> (3) oposto (-3)
+
+> (3) inverso (3⁻¹)
+
+An . An⁻¹ = In
+
 ## Determinante de Matriz
+
+> Representação: | |
 
 Determinante é o número associado a uma matriz quadrada.
 
