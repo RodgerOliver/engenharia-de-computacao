@@ -174,8 +174,8 @@ Seja `R` uma relação de *E* e *F*.
 
 Relação onde *E* (conjunto de partida) e *F* (conjunto de chegada) são subconjuntos de `IR`, sendo, no **gráfico cartesiano**, as abcissas o primeiro termo e as ordenadas o segundo.
 
-![Relação Gráfico](../imagens/relacao-grafico.jpg)
+![Relação Gráfico](https://i.imgur.com/6Xbj7uG.jpg)
 
 Quando *E* e *F* são conjuntos finitos, pode-se representar a relação entre *E* e *F* por meio do diagrama de Venn por uma flecha com origem `x` e extremidade `y`.
 
-![Relação Flechas](../imagens/relacao-flechas.jpg)
+![Relação Flechas](https://i.imgur.com/UlRhJSL.jpg)

@@ -42,7 +42,7 @@ A representação dos vetores é feita por uma letra e uma flecha em cima da let
 
 `S = U + V`
 
-![Soma de Vetores](../imagens/soma-vetores.jpg)
+![Soma de Vetores](https://i.imgur.com/W1TWd6A.jpg)
 
 A esquerda a soma foi feita pelo método do paralelogramo, e a direita pelo método do polígono.
 
@@ -57,7 +57,7 @@ Nota-se que o método do paralelogramo utiliza o cosseno do **ângulo oposto** a
 
 `D = U - V = U + (-V)`
 
-![Diferença de Vetores](../imagens/diferenca-vetores.jpg)
+![Diferença de Vetores](https://i.imgur.com/miFRSQ3.jpg)
 
 **Método do paralelogramo:** `|d|² = |u|² + |v|² - 2.|u|.|v|. cos(v, u)`
 
@@ -71,7 +71,7 @@ Na multiplicação por uma escalar o vetor é `v` e a escalar é `k`, seu produt
 
 ## Plano Cartesiano
 
-![Quadrantes](../imagens/quadrantes.jpg)
+![Quadrantes](https://i.imgur.com/rCKdjEU.jpg)
 
 ### Vetores no Plano R²
 
@@ -140,19 +140,19 @@ Escreva o vetor `u` como combinação linear dos vetores `v` e `w`.
 
 Esse método consiste em escolher uma das equações e isolarmos uma das incógnitas, para determinar o seu valor em relação a outra incógnita. Depois, substituímos esse valor na outra equação.
 
-![Sistemas Substituição](../imagens/sistemas-substituicao.jpg)
+![Sistemas Substituição](https://i.imgur.com/uSV5srx.jpg)
 
 ### Método da Adição
 
 No método da adição buscamos juntar as duas equações em uma única equação, eliminando uma das incógnitas. Para isso, é necessário que os coeficientes de uma das incógnitas sejam opostos, isto é, devem ter o mesmo valor e sinais contrários.
 
-![Sistemas Adição](../imagens/sistemas-adicao.jpg)
+![Sistemas Adição](https://i.imgur.com/ttYLPwZ.jpg)
 
 ## Regra de Cramer
 
 Método para resolver sistemas lineares.
 
-![Regra de Cramer](../imagens/regra-de-cramer.jpg)
+![Regra de Cramer](https://i.imgur.com/BXdYFYF.jpg)
 
 ## Determinante de Matriz
 
@@ -160,8 +160,8 @@ Determinante é o número associado a uma matriz quadrada.
 
 ### Segunda Ordem
 
-![Determinante Matriz 2x2](../imagens/determinante-matriz-2x2.jpg)
+![Determinante Matriz 2x2](https://i.imgur.com/deKSrEV.jpg)
 
 ### Terceira Ordem
 
-![Determinante Matriz 3x3](../imagens/determinante-matriz-3x3.jpg)
+![Determinante Matriz 3x3](https://i.imgur.com/jCkQpje.jpg)

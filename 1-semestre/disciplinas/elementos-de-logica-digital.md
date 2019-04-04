@@ -139,7 +139,7 @@ O sistema binário corresponde diretamente aos sinais em cada ponto do circuito,
 
 ### Conversão
 
-![Potenciação](../imagens/potenciacao.jpg)
+![Potenciação](https://i.imgur.com/Z2Ovl1c.jpg)
 
 - a = base
 - n = expoente
@@ -158,7 +158,7 @@ A mesma lógica é usada para transformar outras bases. O **número do expoente*
 
 #### Base 10 para Base 2
 
-![Conversão de decimal para binário](../imagens/conversao-bases-numericas.jpg)
+![Conversão de decimal para binário](https://i.imgur.com/bWf5Brc.jpg)
 
 O princípio é o mesmo para as outras Bases. **Divide-se o número original pelo número da Base final**, o resultado é dividido novamente pelo número da Base final. Quando o resultado da divisão for `0`, pega-se os restos de todas as divisões de trás para frente e então é formado o número na Base final.
 
@@ -228,11 +228,11 @@ Conversão do número `1011,1001`.
 
 #### Base 2 para Base 16 (Método de Separação por Nibble)
 
-![Método Nibble](../imagens/metodo-nibble.jpg)
+![Método Nibble](https://i.imgur.com/zzy5LOc.jpg)
 
 #### Base 2 para Base 8 (Método de Serapação por Triplo)
 
-![Método Triplo](../imagens/metodo-triplo.jpg)
+![Método Triplo](https://i.imgur.com/hATdRHd.jpg)
 
 #### Base 2 para Base 4 (Método de Serapação por Duplo)
 
@@ -280,4 +280,4 @@ Neste método utiliza-se a forma normalizada, na qual a **mantissa não possui p
 
 ## Unidades de Armazenamento
 
-![Storage Units](../imagens/storage-units.jpg)
+![Storage Units](https://i.imgur.com/J6utqDF.jpg)

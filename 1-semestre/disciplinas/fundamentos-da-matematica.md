@@ -30,7 +30,7 @@ Esse conjunto possui números sem vírgula (inteiros) e positivos. Nele cada ele
 
 Esse conjunto possui números positivos e negativos. Os números que estão à mesma distância do *0* são chamados de opostos ou simétricos.
 
-![Reta Numérica Inteiros](../imagens/reta-numerica-inteiros.jpg)
+![Reta Numérica Inteiros](https://i.imgur.com/Db4XkiM.jpg)
 
 **Exemplos**
 
@@ -61,7 +61,7 @@ Esse conjunto possui números que não são exatos.
 
 Esse conjunto é formado pelos números racionais e irracionais.
 
-![Diagrama dos Conjuntos Numéricos](../imagens/diagrama-conjuntos-numericos.jpg)
+![Diagrama dos Conjuntos Numéricos](https://i.imgur.com/RpWxUgG.jpg)
 
 ### Intervalos Numéricos
 
@@ -77,23 +77,23 @@ Os intervalos são subconjuntos dos números reais.
 
 ##### Intervalo Aberto
 
-![Intervalo Aberto](../imagens/intervalo-aberto.jpg)
+![Intervalo Aberto](https://i.imgur.com/RG9dyPA.jpg)
 
 ##### Intervalo Fechado
 
-![Intervalo Aberto](../imagens/intervalo-fechado.jpg)
+![Intervalo Aberto](https://i.imgur.com/0Un15mi.jpg)
 
 ##### Intervalo Semi-aberto à Direita
 
-![Intervalo Semi-aberto à Direita](../imagens/intervalo-aberto-direita.jpg)
+![Intervalo Semi-aberto à Direita](https://i.imgur.com/gQCNjKE.jpg)
 
 ##### Intervalo Semi-aberto à Esquerda
 
-![Intervalo Semi-aberto à Esquerda](../imagens/intervalo-aberto-esquerda.jpg)
+![Intervalo Semi-aberto à Esquerda](https://i.imgur.com/je1wc5y.jpg)
 
 ##### Intervalos Infinitos
 
-![Intervalo Infinitos](../imagens/intervalo-infinito.jpg)
+![Intervalo Infinitos](https://i.imgur.com/OTcf5xN.jpg)
 
 
 #### Representação Algébrica

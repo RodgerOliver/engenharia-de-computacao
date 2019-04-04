@@ -12,7 +12,7 @@ redirect_from: "/1-semestre/linguagem-de-programacao-1/"
 
 Máquina Sequencial Síncrona de Programa Armazenado na Memória
 
-![Arquitetura Von Neumann](../imagens/arquitetura-von-neumann.jpg)
+![Arquitetura Von Neumann](https://i.imgur.com/Z9BbmOd.jpg)
 
 - **Memória**, para guardar instruções e dados.
 - **CPU**, Control Unit + The Arithmetic/Logic Unit (ALU)
@@ -21,7 +21,7 @@ Máquina Sequencial Síncrona de Programa Armazenado na Memória
 
 ## [Hierarquia de Memórias](http://www.di.ufpb.br/raimundo/Hierarquia/Hierarquia.html)
 
-![Memory Hierarchy](../imagens/memory-hierarchy.jpg)
+![Memory Hierarchy](https://i.imgur.com/zGvuoqx.jpg)
 
 ## Bases Numéricas
 
@@ -77,13 +77,13 @@ Exemplos de **linguagens interpretadas** são **Python, JavaScript e C++**.
 
 A máquina entende somente sua língua (Machine Language), que é o binário, e nada mais, assim a única maneira para executar fazer com que ela execute comandos é programar em binário, porém outras maneiras mais próximas a língua humana surgiram para facilitar o processo.
 
-![Levels of Programming Languages](../imagens/levels-of-programming-languages.jpg)
+![Levels of Programming Languages](https://i.imgur.com/vug5zbL.jpg)
 
 **Low Level Languages**, ou linguagens de baixo nível, são as linguagens mais próximas do hardware. Elas são diretamente executáveis, oferecem completo controle sobre a memória e os registros, são eficientes e rápidas e recomendadas para OS e firmware. Porém são difíceis de se utilizar e o tempo de desenvolvimento de um software é muito maior. Exemplos de Low Level Languages são: **Assembly e Machine Code.**
 
 Para otimizar o processo de programação foram criadas as **High Level Languages** que são mais próximas a linguagem humana, permitindo uma rápida compreensão do código escrito por qualquer um. Elas são fáceis de ser utilizadas, é abstrata, independem da arquitetura da máquina e não é necessário se preocupar com manuseio de memória ou registros, além de facilitarem a manutenção do código. Exemplos de High Level Languages são: **Java, PHP, C# e Swift.**
 
-![Language Level and Processors](../imagens/language-levels-and-processesors.jpg)
+![Language Level and Processors](https://i.imgur.com/Lssbr0z.jpg)
 
 ## CPU Cycle
 
