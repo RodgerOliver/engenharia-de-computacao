@@ -188,7 +188,7 @@ Em geral acontece com 4 entes matemáticos e não existe um fator comum único. 
 
 `a²-b² = (a+b)(a-b)`
 
-### Trinômio do Quadrado Perfeito
+### Trinômio Quadrado Perfeito
 
 **Exemplos**
 
@@ -224,3 +224,15 @@ Onde x¹\* e x²\* são as  raízes (resultado da equação de 2° grau).
 
 - `a³-b³ = (a-b)(a²+ab+b²)`
 - `a³+b³ = (a+b)(a²-ab+b²)`
+
+## Forçar o Aparecimento do Trinómio Quadrado Perfeito
+
+- `x² + 2x + 5`
+- Raiz do primeiro termo e divisão do segundo termo por `2x`, tudo ao quadrado.
+- `(x+1)²`
+- `x² + 2x + 1²`
+- Subtração do número sem `x` do trinômio (1), pelo número sem `x` da equação original (5).
+- `x² + 2x + 1 + 4`
+- Raiz do último número ao quadrado.
+- `(x+1)² + (√4)²`
+- `(x+1)² + 2²`
