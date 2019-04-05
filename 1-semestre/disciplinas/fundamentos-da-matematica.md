@@ -106,14 +106,14 @@ Os intervalos são subconjuntos dos números reais.
 
 ## Dízimas Periódicas
 
-Uma dízima periódica é um número racional onde existe uma repetição infinita de um ou mais algarismos em grupo, ordenados, sempre na mesma posição, chamado de **período**. A parte que está entre vírgulas e o período é parte não periódica de uma dízima.
+Uma dízima periódica é um número racional onde existe uma repetição infinita de um ou mais algarismos em grupo, ordenados, sempre na mesma posição, chamado de **período**. A parte que está entre a vírgula e o período é chamada de **não período**.
 
 - **Dízimas periódicas simples**
   - `0,8888...`
   - `1,232323...`
 - **Dízimas periódicas compostas**
   - `0,3424242...`
-  - `1,7898989...`
+  - `1,730898989...`
 
 ### Geratriz de Dízimas Periódicas
 
@@ -150,7 +150,7 @@ Outra forma de fazer a transformação:
 
 > `(-5)² = 25`
 
-Os produtos notáveis server para facilitar cálculos e poupar trabalho.
+Os produtos notáveis são multiplicações em que os fatores são polinómios, e são transformadas em soma e subtração. Eles servem para facilitar cálculos e poupar trabalho.
 
 1. `(a+b).(a-b) = a²-b²`
 2. `(a+b)² = a² + 2ab + b²`
@@ -161,8 +161,8 @@ Os produtos notáveis server para facilitar cálculos e poupar trabalho.
 
 ### Produtos Especiais
 
-7. `a³-b³ = (a-b) (a² + ab + b²)`
-8. `a³+b³ = (a+b) (a² - ab + b²)`
+7. `(a-b) (a² + ab + b²) = a³-b³`
+8. `(a+b) (a² - ab + b²) = a³+b³`
 
 ## Fatoração
 
@@ -180,10 +180,13 @@ Expressão algébrica formada por parcelas, sendo que um mesmo fator sempre apar
 
 Em geral acontece com 4 entes matemáticos e não existe um fator comum único. Chama-se agrupamento pois é agrupado em "pedaços" que tem um fator comum.
 
-
 **Exemplo**
 
 - `mx + px + my + py = x(m + p) + y(m + p) = (x + y).(m + p)`
+
+### Diferença de Dois Quadrados
+
+`a²-b² = (a+b)(a-b)`
 
 ### Trinômio do Quadrado Perfeito
 
@@ -216,3 +219,8 @@ Onde x¹\* e x²\* são as  raízes (resultado da equação de 2° grau).
 - `2x4 = 8`
 - `2+4 = 6`
 - `x¹* = 2 e x²* = 6`
+
+### Diferença e Soma de Cubos
+
+- `a³-b³ = (a-b)(a²+ab+b²)`
+- `a³+b³ = (a+b)(a²-ab+b²)`
