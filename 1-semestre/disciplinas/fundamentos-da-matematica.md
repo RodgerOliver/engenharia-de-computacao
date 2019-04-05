@@ -150,7 +150,7 @@ Outra forma de fazer a transformação:
 
 > `(-5)² = 25`
 
-Os produtos notáveis são multiplicações em que os fatores são polinómios, e são transformadas em soma e subtração. Eles servem para facilitar cálculos e poupar trabalho.
+Os produtos notáveis são multiplicações em que os fatores são polinômios, e são transformadas em soma e subtração. Eles servem para facilitar cálculos e poupar trabalho.
 
 1. `(a+b).(a-b) = a²-b²`
 2. `(a+b)² = a² + 2ab + b²`
@@ -199,7 +199,7 @@ Em geral acontece com 4 entes matemáticos e não existe um fator comum único. 
 
 **Exemplo**
 
-- `ax² + bx + c = a(x¹*-x)(x-x²*)`
+- `ax² + bx + c = a(x-x¹*)(x-x²*)`
 
 Onde x¹\* e x²\* são as  raízes (resultado da equação de 2° grau).
 
@@ -207,7 +207,7 @@ Onde x¹\* e x²\* são as  raízes (resultado da equação de 2° grau).
 
 - Quando `a = 1`.
 - `x² - sx + p`.
-- p = produto de dois números que resulta em `p`.
+- p = produto dos fatores de `p`.
 - s = soma dos números que multiplicados resultam em `p` com o sinal do `s` invertido.
 
 **Exemplo**
@@ -236,3 +236,24 @@ Onde x¹\* e x²\* são as  raízes (resultado da equação de 2° grau).
 - Raiz do último número ao quadrado.
 - `(x+1)² + (√4)²`
 - `(x+1)² + 2²`
+
+## Simplificação de Frações Algébricas
+
+Frações algébricas são aquelas que possuem como numerador e denominador expressões algébricas.
+
+Utilize as técnicas de simplificação e fatoração para simplificá-las.
+
+## Divisão de Polinómios (Método da Chave)
+
+![Divisão de Polinómios](https://i.imgur.com/UUvMjQP.jpg)
+
+## Frações Parciais
+
+Transforma uma fração algébrica em uma soma de frações.
+
+![Frações Parciais](https://i.imgur.com/VFLkpzS.jpg)
+
+Existe uma maneira de otimizar esse processo.
+
+- Descubra os valores de `x` que zeram um dos fatores que está como denominador do primeiro passo, neste caso `x=-2` e `x=2`.
+- Quando chegar no terceiro passo, faça a equação substituindo o valor de `x` por cada um dos valores encontrados.
