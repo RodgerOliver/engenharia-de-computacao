@@ -257,3 +257,12 @@ Existe uma maneira de otimizar esse processo.
 
 - Descubra os valores de `x` que zeram um dos fatores que está como denominador do primeiro passo, neste caso `x=-2` e `x=2`.
 - Quando chegar no terceiro passo, faça a equação substituindo o valor de `x` por cada um dos valores encontrados.
+
+## Potenciação
+
+![Tipos de Potenciação](https://i.imgur.com/PIBKva7.jpg)
+
+## Notação Científica
+
+- 139500		= 1,395 x 10⁵
+- 0,0000056	= 5,6 x 10⁻⁶
