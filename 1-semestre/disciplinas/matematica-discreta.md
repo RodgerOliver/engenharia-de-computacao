@@ -130,7 +130,9 @@ Cardinalidade é a quantidade de elementos em um determinado conjunto.
 - Todos os elementos do *conjunto vazio* estão em `A`.
 - Como `∅` não possui elementos, todos os "elementos" de `∅` estão em `A`. Portanto a condição está "vaziamente satisfeita".
 
-## Produto Cartesiano
+## Relações
+
+### Produto Cartesiano
 
 **Definição 1:** dados dois conjuntos, *E* e *F*, não vazios, chama-se produto cartesiano de E e F o conjunto formado por pares ordenados `(x, y)`, com `x` em *E* e `y` em *F*.
 
@@ -142,9 +144,9 @@ Assim temos `E x F = {(x,y) / x ∈ E e y ∈ F}`.
 
 > `|ExF| = |E| x |F|`
 
-## Relação Binária
+### Relação Binária
 
-Sendo `R` a relação entre os conjuntos `E = {0, 1, 2, 3, ...}` e `F = {..., -3, -2, -1}`.
+`R` é a relação entre os conjuntos `E = {0, 1, 2, 3, ...}` e `F = {..., -3, -2, -1}`. `R` é um conjunto de pares ordenados, onde o primeiro termo pertence a `E` e o segundo termo pertence a `F`.
 
 - `R = {(x,y) / x + y = 0}`
 - `x ∈ E e y ∈ F`.
@@ -170,17 +172,17 @@ Quando *E* e *F* são conjuntos finitos, pode-se representar a relação entre *
 
 ![Relação Flechas](https://i.imgur.com/UlRhJSL.jpg)
 
-## Domínio Imagem
+### Domínio Imagem
 
 Seja `R` uma relação de *E* e *F*.
 
-**Conjunto domínio** é aquele que exerce a relação. Domínio de `R` é o subconjunto *E* que possui os elementos `x`.
+**Conjunto domínio** é aquele que exerce a relação. Domínio de `R` é o conjunto de todos os primeiros elementos de um par ordenado.
 
-**Conjunto imagem** é aquele que sofreu a relação. Imagem de `R` é o subconjunto de *F* que possui os elementos de `y`.
+**Conjunto imagem** é aquele que sofreu a relação. Imagem de `R` é o conjunto de todos os últimos elementos de um par ordenado.
 
 **Conjunto contradomínio** é o conjusto oposto ao domínio. Contradomínio de `R` é o conjunto *F*.
 
-## Tipos de Relações (Propriedades)
+### Tipos de Relações (Propriedades)
 
 - **Reflexiva**: *E* é reflexiva quando todo elemento de *E* relaciona-se com ele mesmo. `x ∈ E; xRx`.
 - **Simétrica**: *E* é simétrica quando todo elemento se relaciona com o outro e vice e versa. `xRy e yRx`.
