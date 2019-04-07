@@ -130,9 +130,7 @@ Cardinalidade é a quantidade de elementos em um determinado conjunto.
 - Todos os elementos do *conjunto vazio* estão em `A`.
 - Como `∅` não possui elementos, todos os "elementos" de `∅` estão em `A`. Portanto a condição está "vaziamente satisfeita".
 
-## Relações, Aplicações e Operações
-
-### Produto Cartesiano
+## Produto Cartesiano
 
 **Definição 1:** dados dois conjuntos, *E* e *F*, não vazios, chama-se produto cartesiano de E e F o conjunto formado por pares ordenados `(x, y)`, com `x` em *E* e `y` em *F*.
 
@@ -144,11 +142,11 @@ Assim temos `E x F = {(x,y) / x ∈ E e y ∈ F}`.
 
 > `|ExF| = |E| x |F|`
 
-### Relação Binária
+## Relação Binária
 
 Sendo `R` a relação entre os conjuntos `E = {0, 1, 2, 3, ...}` e `F = {..., -3, -2, -1}`.
 
-- `R = {(x,y) / x + y = 0`
+- `R = {(x,y) / x + y = 0}`
 - `x ∈ E e y ∈ F`.
 - *E* é o conjunto de partida.
 - *F* é o conjunto de chegada.
@@ -162,22 +160,6 @@ Por exemplo, se `R` indica a relação em que o conjunto de partida e o conjunto
 
 Para indicar `(a,b) ∈ R` usa-se `aRb`, que significa, "`a` relaciona-se com `b` segundo `R`".
 
-### Domínio Imagem
-
-Seja `R` uma relação de *E* e *F*.
-
-**Conjunto domínio** é aquele que exerce a relação. Domínio de `R` é o subconjunto *E* que possui os elementos `x`.
-
-**Conjunto imagem** é aquele que sofreu a relação. Imagem de `R` é o subconjunto de *F* que possui os elementos de `y`.
-
-**Conjunto contradomínio** é o conjusto oposto ao domínio. Contradomínio de `R` é o conjunto *F*.
-
-### Propriedades
-
-- **Reflexiva**: *E* é reflexiva quando todo elemento de *E* relaciona-se com ele mesmo. `x ∈ E; xRx`.
-- **Simétrica**: *E* é simétrica quando todo elemento se relaciona com o outro e vice e versa. `xRy e yRx`.
-- **Transitiva**: `xRy e yRz → xRz`.
-
 ### Representações
 
 Relação onde *E* (conjunto de partida) e *F* (conjunto de chegada) são subconjuntos de `IR`, sendo, no **gráfico cartesiano**, as abcissas o primeiro termo e as ordenadas o segundo.
@@ -187,6 +169,22 @@ Relação onde *E* (conjunto de partida) e *F* (conjunto de chegada) são subcon
 Quando *E* e *F* são conjuntos finitos, pode-se representar a relação entre *E* e *F* por meio do diagrama de Venn por uma flecha com origem `x` e extremidade `y`.
 
 ![Relação Flechas](https://i.imgur.com/UlRhJSL.jpg)
+
+## Domínio Imagem
+
+Seja `R` uma relação de *E* e *F*.
+
+**Conjunto domínio** é aquele que exerce a relação. Domínio de `R` é o subconjunto *E* que possui os elementos `x`.
+
+**Conjunto imagem** é aquele que sofreu a relação. Imagem de `R` é o subconjunto de *F* que possui os elementos de `y`.
+
+**Conjunto contradomínio** é o conjusto oposto ao domínio. Contradomínio de `R` é o conjunto *F*.
+
+## Tipos de Relações (Propriedades)
+
+- **Reflexiva**: *E* é reflexiva quando todo elemento de *E* relaciona-se com ele mesmo. `x ∈ E; xRx`.
+- **Simétrica**: *E* é simétrica quando todo elemento se relaciona com o outro e vice e versa. `xRy e yRx`.
+- **Transitiva**: `xRy e yRz → xRz`.
 
 ## Indução Matemática
 
