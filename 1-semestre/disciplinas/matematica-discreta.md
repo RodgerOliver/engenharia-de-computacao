@@ -170,6 +170,14 @@ Seja `R` uma relação de *E* e *F*.
 
 **Conjunto imagem** é aquele que sofreu a relação. Imagem de `R` é o subconjunto de *F* que possui os elementos de `y`.
 
+**Conjunto contradomínio** é o conjusto oposto ao domínio. Contradomínio de `R` é o conjunto *F*.
+
+### Propriedades
+
+- **Reflexiva**: *E* é reflexiva quando todo elemento de *E* relaciona-se com ele mesmo. `x ∈ E; xRx`.
+- **Simétrica**: *E* é simétrica quando todo elemento se relaciona com o outro e vice e versa. `xRy e yRx`.
+- **Transitiva**: `xRy e yRz → xRz`.
+
 ### Representações
 
 Relação onde *E* (conjunto de partida) e *F* (conjunto de chegada) são subconjuntos de `IR`, sendo, no **gráfico cartesiano**, as abcissas o primeiro termo e as ordenadas o segundo.
@@ -179,3 +187,17 @@ Relação onde *E* (conjunto de partida) e *F* (conjunto de chegada) são subcon
 Quando *E* e *F* são conjuntos finitos, pode-se representar a relação entre *E* e *F* por meio do diagrama de Venn por uma flecha com origem `x` e extremidade `y`.
 
 ![Relação Flechas](https://i.imgur.com/UlRhJSL.jpg)
+
+## Indução Matemática
+
+**Teorema**: seja `P(n)`uma proposição associada a cada inteiro positivo `n` e que satizfaz as duas seguintes condições:
+1. `P(1)` é verdadeira.
+2. Para todo inteiro `k`, se `P(k)` é verdadeira, então `P(k+1)` também é. Nestas condições a proposição `P(n)` é verdadeira para todo inteiro `n`.
+
+### Princípio da Indução Finita (P.I.F)
+
+> Finita em relação as proposições.
+
+**Teorema**: seja `S` um subconjunto do conjunto `N` dos inteiros positivos (`S ⊂ N`) que satizfaz as duas seguintes propriedades:
+1. `1 ∈ S`
+2. `∀ k ∈ N`, se `k ∈ S`, então `(k+1) ∈ S`. Nessas condições, `S` é o conjunto `N` dos inteiros positivos. `S = N`.
