@@ -214,6 +214,27 @@ Determinante é o número associado a uma matriz quadrada.
 
 ![Determinante Matriz 2x2](https://i.imgur.com/deKSrEV.jpg)
 
-### Terceira Ordem
+### Terceira Ordem (Regra de Sarrus)
 
 ![Determinante Matriz 3x3](https://i.imgur.com/jCkQpje.jpg)
+
+### Menor Complementar
+
+![Menor Complementar](https://i.imgur.com/XKRyM9S.jpg)
+
+`MC23` retira-se a **linha 2** e a **coluna 3**, que resulta na determinante dos elementos faltantes.
+
+### Cofator
+
+`Aij = (-1)^i+j x MCij`
+
+A matriz transposta dos cofatores de uma determinada matriz é chamada de **matriz adjunta**.
+
+### Teorema de Laplace
+
+A somatória da multiplicação de todos os elementos de uma determinada fila de uma matriz multiplicados
+pelos seus respectivos cofatores resulta na determinante da mesma.
+
+### Regra de Chió
+
+![Regra de Chió](https://i.imgur.com/cSqvkLf.jpg)
