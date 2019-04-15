@@ -190,6 +190,8 @@ Seja `R` uma relação de *E* e *F*.
 
 ## Indução Matemática
 
+> A somatória funciona como uma escada.
+
 **Teorema**: seja `P(n)`uma proposição associada a cada inteiro positivo `n` e que satizfaz as duas seguintes condições:
 1. `P(1)` é verdadeira.
 2. Para todo inteiro `k`, se `P(k)` é verdadeira, então `P(k+1)` também é. Nestas condições a proposição `P(n)` é verdadeira para todo inteiro `n`.
