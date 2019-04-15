@@ -266,3 +266,22 @@ Existe uma maneira de otimizar esse processo.
 
 - 139500		= 1,395 x 10⁵
 - 0,0000056	= 5,6 x 10⁻⁶
+
+## Radiciação
+
+> Radiciação é a operação inversa da potenciação.
+
+![Radiciação](https://i.imgur.com/lOieZuM.jpg)
+
+![Radiciação Propriedades](https://i.imgur.com/jk5g3bM.jpg)
+
+Potência com expoente fracionário torna-se uma raiz, onde o índice é o denominador e o expoente do radicando é o numerador.
+
+### Racionalização
+
+> Conjugado de `(a + b)` é `(a - b)`
+
+Quando existe uma raiz no denominador de um fração, a mesma é racionalizada para remover a raiz.
+
+Se for uma raiz sozinha, multiplica-se os dois lados pela raiz. Se for uma expressão com uma raiz,
+multiplica-se os dois lados pelo conjugado do denominador.
