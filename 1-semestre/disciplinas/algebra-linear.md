@@ -204,6 +204,14 @@ In = aij = {1, se i=j; 0, se i≠j
 
 An . An⁻¹ = In
 
+### Matriz Inversa de Ordem 3 ou Superior
+
+**Métodos**: Matriz Aumentada, Matriz Adjunta, Sistemas de Equações (escalonamento).
+
+#### Matriz Adjunta
+
+`A⁻¹ = Adj(A)/Det(A)`
+
 ## Determinante de Matriz
 
 > Representação: | |

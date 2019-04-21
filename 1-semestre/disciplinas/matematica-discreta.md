@@ -203,3 +203,24 @@ Seja `R` uma relação de *E* e *F*.
 **Teorema**: seja `S` um subconjunto do conjunto `N` dos inteiros positivos (`S ⊂ N`) que satizfaz as duas seguintes propriedades:
 1. `1 ∈ S`
 2. `∀ k ∈ N`, se `k ∈ S`, então `(k+1) ∈ S`. Nessas condições, `S` é o conjunto `N` dos inteiros positivos. `S = N`.
+
+## Funções
+
+Função é um tipo de relação onde cada elemento do conjunto domínio tem apenas um corresponde no conjunto contradimínio.
+
+Todos os elementos do conjunto domímio devem ser utilizados para caracterizar uma função, mas nem todos os elementos do conjunto
+contradomínio precisam estar relacionados.
+
+**Representação**:
+- `f : A → B`
+- `f(x) = y`
+
+![Função](https://i.imgur.com/hUQFGEP.jpg)
+
+### Tipos de Funções
+
+**Injetora**: quando um elemento do conjunto imagem possui somente um correspondente no conjunto domínio.
+
+**Sobrejetora**: quando o conjunto imagem é igual ao conjunto contradomínio.
+
+**Bijetora**: junção dos dois tipos acima.

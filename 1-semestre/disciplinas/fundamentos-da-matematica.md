@@ -203,13 +203,6 @@ Em geral acontece com 4 entes matemáticos e não existe um fator comum único. 
 
 Onde x¹\* e x²\* são as  raízes (resultado da equação de 2° grau).
 
-#### Soma e produto
-
-- Quando `a = 1`.
-- `x² - sx + p`.
-- p = produto dos fatores de `p`.
-- s = soma dos números que multiplicados resultam em `p` com o sinal do `s` invertido.
-
 **Exemplo**
 
 `x² - 6x + 8`
@@ -285,3 +278,44 @@ Quando existe uma raiz no denominador de um fração, a mesma é racionalizada p
 
 Se for uma raiz sozinha, multiplica-se os dois lados pela raiz. Se for uma expressão com uma raiz,
 multiplica-se os dois lados pelo conjugado do denominador.
+
+## Equações Algébricas
+
+### Equação de 1º Grau
+
+`a.x + b = 0`
+
+Para resolver basta isolar o `x`.
+
+### Equação de 2º Grau
+
+`a.x² + b.x + c = 0`
+
+Para resolver pode ser usado a fórmula de Bhaskara ou o médoto de Soma e Produto.
+
+#### Bhaskara
+
+- `x = (-b ± √Δ)/2.a`
+- `Δ = b² -4.a.c`
+
+#### Soma e Produto
+
+- Quando `a = 1`.
+- `x² - sx + p`.
+- p = produto dos fatores de `p`.
+- s = soma dos números que multiplicados resultam em `p` com o sinal do `s` invertido.
+
+### Equações Irracionais
+
+A equação é Irracional se a incognita for elavada a um expoente fracionário.
+
+- `√(x+2) = 4`
+- `(√(x+2))² = 4²`
+- `x+2 = 16`
+- `x = 14`
+
+Então é feita a **verificação**
+
+- `√(14+2) = 4`
+- `√(16) = 4`
+- `4 = 4`
