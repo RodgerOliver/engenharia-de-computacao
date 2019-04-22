@@ -213,7 +213,7 @@ contradomínio precisam estar relacionados.
 
 **Representação**:
 - `f : A → B`
-- `f(x) = y`
+- `f(x) = x²`
 
 ![Função](https://i.imgur.com/hUQFGEP.jpg)
 
