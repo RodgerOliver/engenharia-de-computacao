@@ -215,7 +215,7 @@ x  |   |   |   | 2
 - Converter a parte decimal.
   - `Base10(0,5625) = Base2(1001)`
 - Representação.
-  - `Base10(11,5625) = Base2(1011) Base2(1001)`
+  - `Base10(11,5625) = Base2(1011,1001)`
 
 #### Base 2 com Vírgula para Base 10
 
@@ -230,11 +230,11 @@ Conversão do número `1011,1001`.
 
 ![Método Nibble](https://i.imgur.com/zzy5LOc.jpg)
 
-#### Base 2 para Base 8 (Método de Serapação por Triplo)
+#### Base 2 para Base 8 (Método de Serapação por Trio)
 
-![Método Triplo](https://i.imgur.com/hATdRHd.jpg)
+![Método Trio](https://i.imgur.com/hATdRHd.jpg)
 
-#### Base 2 para Base 4 (Método de Serapação por Duplo)
+#### Base 2 para Base 4 (Método de Serapação por Dupla)
 
 O mesmo princípio se aplica para este método.
 
