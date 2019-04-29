@@ -214,6 +214,7 @@ contradomínio precisam estar relacionados.
 **Representação**:
 - `f : A → B`
 - `f(x) = x²`
+- `x = y`
 
 ![Função](https://i.imgur.com/hUQFGEP.jpg)
 
@@ -224,3 +225,20 @@ contradomínio precisam estar relacionados.
 **Sobrejetora**: quando o conjunto imagem é igual ao conjunto contradomínio.
 
 **Bijetora**: junção dos dois tipos acima.
+
+## Função Inversa
+
+Uma função só é inversa se ela for bijetora.
+
+**Representação**:
+- `f⁻¹ : B → A`
+- `f⁻¹(b) = a` quando `f(a) = b`
+- `x²` = f(x)`
+- `y = x`
+
+## Função Composta
+
+Uma função composta é quando o domínio de uma função é a imagem de outra.
+
+- `(f o g)(a) = f(g(a))`
+- `f o g = f(g(x))`
