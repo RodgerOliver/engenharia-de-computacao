@@ -106,4 +106,4 @@ A velocidade da CPU não é medida por CPU Cycles, mas sim por Clock Cycles. Cad
 
 ## Linguagem C
 
-Arquivos dessa aula estão em `1-semestre/extras/linguagem-de-programacao/`.
+Arquivos desta aula estão em `1-semestre/disciplinas/c/`.
