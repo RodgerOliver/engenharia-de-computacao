@@ -66,6 +66,8 @@ Os microprocessadores são classificados como 4, 8, 16 e 32 BITs em função do 
 
 ##### Multiplicação
 
+![Multiplicação de Binários](https://i.imgur.com/KdKYYdR.jpg)
+
 ##### Divisão
 
 #### Representação de Números Inteiros

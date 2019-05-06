@@ -4,7 +4,7 @@ redirect_from: "/1-semestre/fundamentos-da-matematica/"
 
 # [Home](/engenharia-da-computacao/)
 
-# Fundamentos da Matemática - Prof. Eurico - [(Apostila)](https://github.com/RodgerOliver/engenharia-da-computacao/raw/master/1-semestre/apostilas/apostila-fundamentos-da-matematica-1-semestre-2019.pdf)
+# Fundamentos da Matemática - Prof. Eurico
 
 **Notas**
 - `x² + 5x + 3`          expressão algébrica
@@ -319,3 +319,7 @@ Então é feita a **verificação**
 - `√(14+2) = 4`
 - `√(16) = 4`
 - `4 = 4`
+
+### Equação Biquadrada
+
+![Equação Biquadrada](https://i.imgur.com/byUKGeN.jpg)

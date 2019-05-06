@@ -4,7 +4,7 @@ redirect_from: "/1-semestre/algebra-linear/"
 
 # [Home](/engenharia-da-computacao/)
 
-# Álgebra Linear - Prof. Alexandre - [(Apostila)](https://github.com/RodgerOliver/engenharia-da-computacao/raw/master/1-semestre/apostilas/apostila-de-algebra-linear-1-semestre-2019.pdf)
+# Álgebra Linear - Prof. Alexandre
 
 ## Vetores
 
