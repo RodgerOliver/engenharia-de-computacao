@@ -120,5 +120,27 @@ int main() {
 
 	printf("O produto escalar dos arrays é %.2f\n", p);
 
+/*
+
+	Bidimensional Arrays
+
+	Valids decalrations
+
+*/
+
+	int arr1[2][2] = {
+		{1, 2},
+		{3, 4}
+	};
+
+	int arr1_2[2][2] = {1, 2, 3, 4};
+
+	int arr2[][2] = {
+		{1, 2},
+		{3, 4},
+		{5, 6}
+	};
+
+
 return 0;
 }
