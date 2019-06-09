@@ -127,10 +127,11 @@ Escreva o vetor `u` como combinação linear dos vetores `v` e `w`.
 - `(7,1) = a(5,-2) + b(2,3)`
 - `(7,1) = (5a,-2a) + (2b,3b)`
 - `(7,1) = (5a+2b, -2a+3b)`
-- ```
+- 
+```
     7 = 5a + 2b
     1 = -2a + 3b
-  ```
+```
 - `a = 1; b = 2`
 - `u = 1.v + 2.w`
 
@@ -246,3 +247,24 @@ pelos seus respectivos cofatores resulta na determinante da mesma.
 ### Regra de Chió
 
 ![Regra de Chió](https://i.imgur.com/cSqvkLf.jpg)
+
+## Vetores - Produto Escalar
+
+- **Representação**: `u . v` ou `< u, v >`
+- `u . v = (x, y, z) . (a, b, c)`
+- `u . v = xa + yb + zc`
+
+### Módulo de um Vetor
+
+> `λu = u/|u|`
+
+- `|u|² = u . u`
+- `|u|² = (x, y, z) . (x, y, z)`
+- `|u|² = x² + y² + z²`
+
+### Interpretação Geométrica
+
+- `u . v = |u| . |v| . cosθ` 0º ≤ θ < 180º
+- `u . v > 0` ↔  0º ≤ θ < 90º
+- `u . v = 0` ↔  θ = 90º
+- `u . v < 0` ↔  90º < θ < 180º
