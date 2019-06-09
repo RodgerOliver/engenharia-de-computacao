@@ -323,3 +323,35 @@ Então é feita a **verificação**
 ### Equação Biquadrada
 
 ![Equação Biquadrada](https://i.imgur.com/byUKGeN.jpg)
+
+## Relações Métricas e Trigonométricas no Triângulo Retângulo
+
+> Diagonal do quadrado = l√2
+
+> μ = unidade de comprimento geral
+
+> adjacente = do lado
+
+### Relações Métricas no Triângulo Retângulo
+
+![Relações Métricas no Triângulo Retângulo](https://i.imgur.com/jgqZpfe.jpg)
+
+### Relações Trigonométricas no Triângulo Retângulo
+
+![Relações Trigonométricas no Triângulo Retângulo](https://i.imgur.com/p3NWzp8.jpg)
+
+### Arco Notáveis
+
+![Arco Notáveis](https://i.imgur.com/zGviPj1.jpg)
+
+### Lei Dos Senos
+
+![Lei Dos Senos](https://i.imgur.com/HENGxNI.jpg)
+
+### Lei Dos Cossenos
+
+![Lei Dos Cossenos](https://i.imgur.com/SfrMFlR.jpg)
+
+## Áreas
+
+Anotações na apostila.
