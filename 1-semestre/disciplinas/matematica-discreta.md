@@ -220,9 +220,13 @@ contradomínio precisam estar relacionados.
 
 ### Tipos de Funções
 
-**Injetora**: quando um elemento do conjunto imagem possui somente um correspondente no conjunto domínio.
+> Se det(A) ≠ de 0 existe a sua inversa.
 
-**Sobrejetora**: quando o conjunto imagem é igual ao conjunto contradomínio.
+> Funcão binominal: `ax² + bx + c`.
+
+**Injetora**: quando um elemento do conjunto imagem possui somente um correspondente no conjunto domínio. `∀ x ≠ y ∈  Dom, ∃ f(x) ≠ f(y)`
+
+**Sobrejetora**: quando o conjunto imagem é igual ao conjunto contradomínio. `∀ y ∈  ContraDom, ∃x ∃ Dom, cuja f(x) = y`
 
 **Bijetora**: junção dos dois tipos acima.
 
@@ -233,7 +237,7 @@ Uma função só é inversa se ela for bijetora.
 **Representação**:
 - `f⁻¹ : B → A`
 - `f⁻¹(b) = a` quando `f(a) = b`
-- `x²` = f(x)`
+- `x² = f(x)`
 - `y = x`
 
 ## Função Composta
