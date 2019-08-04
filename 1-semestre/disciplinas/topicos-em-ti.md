@@ -2,7 +2,7 @@
 redirect_from: "/1-semestre/topicos-em-ti/"
 ---
 
-# [Home](/engenharia-da-computacao/)
+# [Home](/engenharia-de-computacao/)
 
 # Tópicos em TI - Prof. Walter
 

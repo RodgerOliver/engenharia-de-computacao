@@ -2,6 +2,6 @@
 redirect_from: "/2-semestre/expressao-grafica/"
 ---
 
-# [Home](/engenharia-da-computacao/)
+# [Home](/engenharia-de-computacao/)
 
 # Expressão Gráfica - Prof. Mauro

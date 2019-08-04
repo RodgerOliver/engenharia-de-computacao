@@ -2,6 +2,6 @@
 redirect_from: "/2-semestre/lingua-portuguesa/"
 ---
 
-# [Home](/engenharia-da-computacao/)
+# [Home](/engenharia-de-computacao/)
 
 # Lingua Portuguesa - Profa. Sílvia

@@ -2,7 +2,7 @@
 redirect_from: "/1-semestre/fundamentos-da-matematica/"
 ---
 
-# [Home](/engenharia-da-computacao/)
+# [Home](/engenharia-de-computacao/)
 
 # Fundamentos da Matemática - Prof. Eurico
 

@@ -2,7 +2,7 @@
 redirect_from: "/1-semestre/algebra-linear/"
 ---
 
-# [Home](/engenharia-da-computacao/)
+# [Home](/engenharia-de-computacao/)
 
 # Álgebra Linear - Prof. Alexandre
 

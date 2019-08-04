@@ -2,7 +2,7 @@
 redirect_from: "/1-semestre/linguagem-de-programacao-1/"
 ---
 
-# [Home](/engenharia-da-computacao/)
+# [Home](/engenharia-de-computacao/)
 
 # Algoritmos e Linguagem de Programação ( C ) - Prof. Dr. Fernandes
 

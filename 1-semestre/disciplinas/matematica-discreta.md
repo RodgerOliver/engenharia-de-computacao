@@ -2,7 +2,7 @@
 redirect_from: "/1-semestre/matematica-discreta/"
 ---
 
-# [Home](/engenharia-da-computacao/)
+# [Home](/engenharia-de-computacao/)
 
 # Matemática Discreta - Prof. Ana Clara
 

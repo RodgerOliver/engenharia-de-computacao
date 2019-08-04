@@ -2,7 +2,7 @@
 redirect_from: "/2-semestre/logica-digital-aplicada/"
 ---
 
-# [Home](/engenharia-da-computacao/)
+# [Home](/engenharia-de-computacao/)
 
 # Lógica Digital Aplicada - Prof. Walter
 

@@ -2,6 +2,6 @@
 redirect_from: "/2-semestre/paradigmas-de-programacao/"
 ---
 
-# [Home](/engenharia-da-computacao/)
+# [Home](/engenharia-de-computacao/)
 
 # Paradigmas de Programação - Prof. Dawilmar

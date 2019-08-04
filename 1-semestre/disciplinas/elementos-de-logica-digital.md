@@ -2,7 +2,7 @@
 redirect_from: "/1-semestre/elementos-de-logica-digital/"
 ---
 
-# [Home](/engenharia-da-computacao/)
+# [Home](/engenharia-de-computacao/)
 
 # Elementos de Lógica Digital - Prof. Walter
 
