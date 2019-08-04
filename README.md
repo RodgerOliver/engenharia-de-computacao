@@ -22,6 +22,8 @@
 
 ### [Fundamentos Da Matemática](2-semestre/disciplinas/fundamentos-da-matematica.md)
 
+### [Geometria Analítica](2-semestre/disciplinas/geometria-analitica.md)
+
 ### [Língua Portuguesa](2-semestre/disciplinas/lingua-portuguesa.md)
 
 ### [Linguagem de Programação 2](2-semestre/disciplinas/linguagem-de-programacao-2.md)
