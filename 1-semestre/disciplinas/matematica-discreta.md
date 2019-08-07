@@ -246,3 +246,23 @@ Uma função composta é quando o domínio de uma função é a imagem de outra.
 
 - `(f o g)(a) = f(g(a))`
 - `f o g = f(g(x))`
+
+## Estruturas algebrigas
+> Homomofismo
+
+`(IK, °)`
+
+## Operacao fechada
+
+## Grupos
+### Legenda
+- `°`: operacao
+- `a'`: oposto
+- `0`: elemento neutro
+- `IK`: conjunto qualquer
+
+### Propriedades
+- `a ° b = b ° a`: comutativa
+- `a (b ° c) = (a ° b) c`: associativa
+- `a ° 0 = 0 ° a = a`: elemento neutro
+- `a ° a' = a' ° a = 0`: simetrizavel

@@ -107,3 +107,104 @@ A velocidade da CPU não é medida por CPU Cycles, mas sim por Clock Cycles. Cad
 ## Linguagem C
 
 Arquivos desta aula estão em `1-semestre/disciplinas/c/`.
+
+## Prova
+
+- Usos do zero
+- Protótipos
+- Passagem de params para funcao
+- Variaveis simples
+- Vetores e strings
+- Strings
+- Vetores
+
+## Introdução
+
+> Algoritmos e informação
+
+> Racional = p/q
+
+- Computação Digital
+- Algoritmo
+- Elementos básicos
+- Linguagem C
+- Caracteres
+- Esqueleto de programação
+- Exemplos
+
+## Elementos Básicos
+
+### Programação estruturada usando C
+
+Existem estruturas com 1 pto de entrada e 1 pto de saída.
+
+Programas resolvem problemas manipulando informação.
+
+- Trazer info para dentro do computador
+- Arranjar lugar pro armazenar a info
+- Dar instruções para resolver o problema manipulando a informação
+- Restituir resultado ao usuário
+
+#### Organização das instruções
+
+- Algumas são executadas quando uma condição ou conjunto de instruções é verdadeiro.
+- algumas são repetidas um determinado número de vezes.
+- Algumas são quebradas em parte que são executadas várias vezes p/ programa.
+
+### Sete elementos básicos
+
+- Entrada
+- Tipo de dados
+- Operadores / Operações
+- Saída
+- Instrução de repetição
+- Instrução de desvio / Decisão
+- Sub-rotinas / Funções
+
+### Características Da Linguagem C
+
+- Médio nível
+- Estrutura de dados de alto nivel
+- Manipulação de bits e bytes
+- Rápida, flexível
+- Altamente portável
+- Sobrecarga de operadores
+- Precedência Esq-Dir e Dir-Esq
+- Zero
+- Início de contagem
+  - 1° índice do array
+  - Valor lógico para falso (verdadeiro = valor diferente de zero)
+  - Sentinela de final de string (cadeia de caracteres)
+- Indicação de ponteiro nulo ( = endereço inválido de memória)
+
+## Linguagem C
+
+Operador ternário (condicional)
+
+```
+int max = (a>b)? a : b;
+a = int(b)
+```
+
+Onde estão as libs?
+
+Protótipo da função = `double sin(double value);`
+
+Qnd o protótipo da função é referenciada antes do `main()`, a função em si pode estar em qualquer lugar do código.
+
+Na chamada da função uma área de memória é criada para suas variáveis, após a sua finalização essa área é destruída.
+
+```
+void swap(int *a, int *b) { }
+* Operador de referenciação.
+swap(&x, &y);
+```
+
+`static int v = 1;`
+
+Static representa q a função pode ser somente visará dentro da função, e q após sua finalização ela não é destruída.
+
+Em dois arquivos com a mesma variável `g` com o mesmo valor, em um arquivo está presente a definição e no outro a declaração. A declaração pode estar presente em vários arquivos, mas a definição pode estar presente em somente um arquivo.
+
+- Definição: int g = 1;
+- Declaração: extern int g;
