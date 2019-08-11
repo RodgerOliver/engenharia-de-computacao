@@ -111,7 +111,7 @@ Nesse sistema nenhum bit é utilizado como sinal, assim todos os bits representa
 Exemplos, representação dos números *10* e *-10* com limitação de 8 BITs (`N=8`).
 
 - `10 = 10 + 128 = 138 = 1000 1010`
-- `-10 = -10 + 128 = 118 = 0111 0110` <!-- PQ NAO DEU 0110 1110? -->
+- `-10 = -10 + 128 = 118 = 0111 0110`
 
 Nota-se que o número representado em Excesso de 2 é igual ao seu correspondente no sistema Complemento de 2, mas com o primeiro dígito trocado.
 
