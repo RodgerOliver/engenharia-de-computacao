@@ -9,6 +9,7 @@ double sum_square(double (*f)(double), double m, double n);
 double f_de_k(double k);
 double g_de_x(double x);
 void print_separator();
+int * get_evens(); // function that returns an array (pointer)
 
 int main() {
 	/* ===== BASIC ===== */
@@ -82,6 +83,15 @@ int main() {
 	// exit(0);
 
 	/* ===== POINTERS AND FUNCTIONS ===== */
+
+	print_separator();
+	printf("===== PRINT EVENS\n");
+	int *even_arr, k;
+	even_arr = get_evens(); /* get first 5 even numbers */
+	for (k = 0; k < 5; k++) {
+		printf("%d\n", even_arr[k]);
+	}
+
 	print_separator();
 	testfunc("square root", sqrt);
 
@@ -168,4 +178,15 @@ double g_de_x(double x) {
 
 void print_separator() {
 	printf("\n====================\n\n");
+}
+
+// function that returns an array (pointer)
+int * get_evens() {
+	static int nums[5];
+	int k;
+	int even = 0;
+	for (k = 0; k < 5; k++) {
+		nums[k] = even += 2;
+	}
+	return (nums);
 }
