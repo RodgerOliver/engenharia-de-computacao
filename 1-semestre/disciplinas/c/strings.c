@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <string.h>
 
 int main() {
 
@@ -11,6 +12,15 @@ int main() {
 	 * char str[100] = {'R', 'o', 'd', 'g', 'e', 'r', '\0'};
 	 * char nome[7] = "Unitau";
 	 * {'U','n','i','t','a','u','\0'}
+	 *
+	 * Functions
+	 * strlen() - get length of a string
+	 * strcat() - merge two strings
+	 * strcpy() - copy one string to another
+	 * strlwr() - convert string to lower case
+	 * strupr() - conver string to upper case
+	 * strrev() - reverse string
+	 * strcmp() - compare two strings
 	*/
 
 	char s[80] = "Unitau";
