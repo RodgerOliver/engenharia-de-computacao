@@ -6,7 +6,7 @@
 /* *(s1 + i) == s1 + sizeof(char) x i */
 
 int swap(int a, int b);
-int swap_pointer(int *a, int *b);
+int swap_pointer(int *a, int *b); // pointer as parameter
 void testfunc(char *name, double (*funcPtr)());
 double sum_square(double (*f)(double), double m, double n);
 double f_de_k(double k);
@@ -15,17 +15,6 @@ void print_separator();
 
 int main() {
 	/* ===== BASIC ===== */
-	int i, s = 0;
-	int *z;
-	for(i = 1; i < 6; i++) {
-		s += i;
-	}
-	z = &i;
-	print_separator();
-	printf("Sum = %d\n", s);
-	printf("Location of i: %p\n", z);
-	printf("Value of i: %d\n", *z);
-
 	int a = 5, b = 6;
 
 	print_separator();
@@ -49,7 +38,7 @@ int main() {
 	printf("&b = %p\n", &b);
 
 	/* ===== DYNAMIC ALLOCATION ===== */
-	int *p, tam = 10;
+	int *p, i, tam = 10;
 	// define size of memory that is gonna be stored in the variable
 	// tam * sizeof(int) returns bytes
 	p = (int *)malloc(tam * sizeof(int));
@@ -116,11 +105,12 @@ int swap(int a, int b) {
 	printf("&b = %p\n", &b);
 }
 
+// pointer as parameter
 int swap_pointer(int *a, int *b) {
 	// a  = address of a
 	// *a = value of a
 	int tmp = *a;
-	*a = *b;
+	*a = *b; // changes the actual variable value
 	*b = tmp;
 	printf("Inside SWAP_POINTER\n");
 	printf("a = %d\n", *a);
