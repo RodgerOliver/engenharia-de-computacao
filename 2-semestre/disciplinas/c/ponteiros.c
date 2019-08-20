@@ -2,9 +2,6 @@
 # include <stdlib.h>
 # include <math.h>
 
-/* char s[] == char *s */
-/* *(s1 + i) == s1 + sizeof(char) x i */
-
 int swap(int a, int b);
 int swap_pointer(int *a, int *b); // pointer as parameter
 void testfunc(char *name, double (*funcPtr)());
@@ -37,8 +34,34 @@ int main() {
 	printf("&a = %p\n", &a);
 	printf("&b = %p\n", &b);
 
+	/* ===== STRINGS, ARRAYS AND POINTERS ===== */
+	/* char s[] == char *s */
+	/* an array is a pointer to the first element */
+	/* *(s1 + i) == *(s1 + sizeof(char) * i) */
+	print_separator();
+	char string[80] = "Unitau";
+	char *pstring = string;
+	int i;
+	printf("===== ARRAY\n");
+	for(i = 0; string[i] != '\0'; i++) {
+		printf("%c", string[i]);
+	}
+	printf("\n");
+
+	printf("===== POINTER\n");
+	for(i = 0; *(pstring+i) != '\0'; i++) {
+		printf("%c", *(pstring+i)); // add i to the address to jump to the next address
+	}
+	printf("\n");
+
+	printf("===== OTHER\n");
+	for(i = 0; *(pstring+i) != '\0'; i++) {
+		printf("%c", *(pstring + sizeof(char) * i));
+	}
+	printf("\n");
+
 	/* ===== DYNAMIC ALLOCATION ===== */
-	int *p, i, tam = 10;
+	int *p, tam = 10;
 	// define size of memory that is gonna be stored in the variable
 	// tam * sizeof(int) returns bytes
 	p = (int *)malloc(tam * sizeof(int));
@@ -58,7 +81,7 @@ int main() {
 	// clear memory area
 	// exit(0);
 
-	/* ===== POINTERS FOR FUNCTIONS ===== */
+	/* ===== POINTERS AND FUNCTIONS ===== */
 	print_separator();
 	testfunc("square root", sqrt);
 
