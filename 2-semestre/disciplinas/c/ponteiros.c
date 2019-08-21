@@ -87,6 +87,7 @@ int main() {
 	print_separator();
 	printf("===== PRINT EVENS\n");
 	int *even_arr, k;
+	// function that returns an array
 	even_arr = get_evens(); /* get first 5 even numbers */
 	for (k = 0; k < 5; k++) {
 		printf("%d\n", even_arr[k]);
@@ -94,11 +95,9 @@ int main() {
 
 	print_separator();
 	testfunc("square root", sqrt);
-
-	double (*f)(double); // pointer to receive a function
-
-	print_separator();
 	printf("Get summation\n");
+	// function pointer
+	double (*f)(double); // pointer to receive a function
 	double n = 2;
 	f = f_de_k;
 	/* f = g_de_x; */
@@ -156,7 +155,7 @@ void testfunc(char *name, double (*funcPtr)()) {
 	int c;
 	printf("Testing func %s\n", name);
 	for(c = 0; c < 20; ++c) {
-		printf("%d %f\n", c, (funcPtr)((double)(c)));
+		printf("√%d = %0.2f\n", c, (funcPtr)((double)(c)));
 	}
 }
 
