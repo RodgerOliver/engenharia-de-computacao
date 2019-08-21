@@ -10,6 +10,7 @@ double f_de_k(double k);
 double g_de_x(double x);
 void print_separator();
 int * get_evens(); // function that returns an array (pointer)
+void say_hello(int num);
 
 int main() {
 	/* ===== BASIC ===== */
@@ -83,6 +84,8 @@ int main() {
 	// exit(0);
 
 	/* ===== POINTERS AND FUNCTIONS ===== */
+	/* a function name points to the start of */
+	/* executable code */
 
 	print_separator();
 	printf("===== PRINT EVENS\n");
@@ -94,7 +97,17 @@ int main() {
 	}
 
 	print_separator();
+	void (*funcptr)(int); // pointer to function
+	funcptr = say_hello; // pointer assignment
+	/* funcptr = &say_hello; */
+	funcptr(3);
+	/* (*funcptr)(3); */
+
+	print_separator();
+	// call function inside other function
 	testfunc("square root", sqrt);
+	print_separator();
+
 	printf("Get summation\n");
 	// function pointer
 	double (*f)(double); // pointer to receive a function
@@ -156,6 +169,7 @@ void testfunc(char *name, double (*funcPtr)()) {
 	printf("Testing func %s\n", name);
 	for(c = 0; c < 20; ++c) {
 		printf("√%d = %0.2f\n", c, (funcPtr)((double)(c)));
+		// (double)(c) is just casting "c"
 	}
 }
 
@@ -188,4 +202,11 @@ int * get_evens() {
 		nums[k] = even += 2;
 	}
 	return (nums);
+}
+
+void say_hello(int num) {
+	int i;
+	for(i = 0; i < num; i++) {
+		printf("Hello\n");
+	}
 }
