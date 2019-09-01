@@ -62,11 +62,47 @@ int main() {
 	}
 	printf("\n");
 
-	/* ===== DYNAMIC ALLOCATION ===== */
-	int *p, tam = 10;
-	// define size of memory that is gonna be stored in the variable
-	// tam * sizeof(int) returns bytes
-	p = (int *)malloc(tam * sizeof(int));
+	/* ===== DYNAMIC ALLOCATION =====
+	 *
+	 * Sentenças como `char x; int y;` fazem alocação de memória estática,
+	 * durante a compilação do programa, ou seja, uma quantidad
+	 * pré-determinada de bytes é separado para * alocar o dado.
+	 *
+	 * Para alocar memória dinamicamente, durante a execução do programa,
+	 * funções como malloc(), realloc() e free() são usadas.
+	 *
+	 * A função malloc() aloca espaço para um bloco de bytes consecutivos
+	 * na memória RAM e devolve o endereço desse bloco. O número de bytes
+	 * é especificado no argumento da função. O endereço devolvido por
+	 * malloc() é do tipo `void *`. As vezes o casting para outro tipo
+	 * é necessário.
+	 *
+	 * O operador `sizeof` retorna o número de bytes necessário para
+	 * alocar um determinado tipo de dado.
+	 *
+	 * ------------- Alocando dinamicamente o espaço necessário -------------
+	 * 1 - Calcular o número de bytes necessários:
+	 * primeiramente multiplicamos o número de componentes do vetor pela
+	 * quantidade de bytes que é dada pelo comando sizeof,
+	 * portanto temos:
+	 * num_componentes * sizeof(float)
+	 *
+	 * 2 - Reservar a quantidade de memória:
+	 * usamos malloc para reservar essa quantidade de memória,
+	 * então temos:
+	 * malloc(num_componentes * sizeof(float))
+	 *
+	 * 3 - Converter o ponteiro para o tipo de dados desejado:
+	 * como a função malloc retorna um ponteiro do tipo void,
+	 * precisamos converter esse ponteiro para o tipo da nossa variável, no caso float,
+	 * por isso usamos o comando de conversão explicita:
+	 * (float *)
+	 *
+	 * 4 - juntando tudo e atribuindo em v temos o comando abaixo:
+	 */
+
+	float *p, tam = 10;
+	p = (float *)malloc(tam * sizeof(int));
 
 	for(i = 0; i < tam; i++) {
 		p[i] = i * 2;
@@ -75,11 +111,11 @@ int main() {
 	print_separator();
 
 	for(i = 0; i < tam; i++) {
-		printf("p[%i] = %i\n", i, *(p+i));
+		printf("p[%i] = %0.2f\n", i, *(p+i));
 	}
 
 	// free memory area
-	// free(p);
+	free(p);
 	// clear memory area
 	// exit(0);
 
@@ -137,6 +173,8 @@ int main() {
 	// gets() exceeds the memory limit, it overrides memory
 	// unget() removes a char from the pointer
 	// function name is the address of the begining of it
+
+	return 0;
 }
 
 int swap(int a, int b) {
