@@ -1,10 +1,19 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-struct Node{
+struct Node {
 	int num;
 	struct Node *prox;
 };
+/*
+ *
+ * O operador `typedef` é usado para criar um alias para
+ * tipos de dados já existentes.
+ *
+ * typedef <nome do tipo de dado> <novo nome>;
+ *
+ */
+
 typedef struct Node node;
 
 int tam;
@@ -23,34 +32,31 @@ node *retiraFim(node *LISTA);
 node *retira(node *LISTA);
 
 
-int main(void)
-{
+int main(void) {
 	node *LISTA = (node *) malloc(sizeof(node));
-	if(!LISTA){
+	if(!LISTA) {
 		printf("Sem memoria disponivel!\n");
 		exit(1);
-	}else{
+	} else {
 		inicia(LISTA);
 		int opt;
 
-		do{
+		do {
 			opt=menu();
 			opcao(LISTA,opt);
-		}while(opt);
+		} while(opt);
 
 		free(LISTA);
 		return 0;
 	}
 }
 
-void inicia(node *LISTA)
-{
+void inicia(node *LISTA) {
 	LISTA->prox = NULL;
 	tam=0;
 }
 
-int menu(void)
-{
+int menu(void) {
 	int opt;
 
 	printf("Escolha a opcao\n");
@@ -68,10 +74,9 @@ int menu(void)
 	return opt;
 }
 
-void opcao(node *LISTA, int op)
-{
+void opcao(node *LISTA, int op) {
 	node *tmp;
-	switch(op){
+	switch(op) {
 		case 0:
 			libera(LISTA);
 			break;
@@ -117,47 +122,46 @@ void opcao(node *LISTA, int op)
 	}
 }
 
-int vazia(node *LISTA)
-{
-	if(LISTA->prox == NULL)
+int vazia(node *LISTA) {
+	if(LISTA->prox == NULL){
 		return 1;
-	else
+	}
+	else {
 		return 0;
+	}
 }
 
-node *aloca()
-{
+node *aloca() {
 	node *novo=(node *) malloc(sizeof(node));
-	if(!novo){
+	if(!novo) {
 		printf("Sem memoria disponivel!\n");
 		exit(1);
-	}else{
+	} else {
 		printf("Novo elemento: "); scanf("%d", &novo->num);
 		return novo;
 	}
 }
 
 
-void insereFim(node *LISTA)
-{
+void insereFim(node *LISTA) {
 	node *novo=aloca();
 	novo->prox = NULL;
 
-	if(vazia(LISTA))
+	if(vazia(LISTA)) {
 		LISTA->prox=novo;
-	else{
+	} else {
 		node *tmp = LISTA->prox;
 
-		while(tmp->prox != NULL)
+		while(tmp->prox != NULL) {
 			tmp = tmp->prox;
+		}
 
 		tmp->prox = novo;
 	}
 	tam++;
 }
 
-void insereInicio(node *LISTA)
-{
+void insereInicio(node *LISTA) {
 	node *novo=aloca();
 	node *oldHead = LISTA->prox;
 
@@ -167,10 +171,9 @@ void insereInicio(node *LISTA)
 	tam++;
 }
 
-void exibe(node *LISTA)
-{
+void exibe(node *LISTA) {
 	system("clear");
-	if(vazia(LISTA)){
+	if(vazia(LISTA)) {
 		printf("Lista vazia!\n\n");
 		return ;
 	}
@@ -178,30 +181,30 @@ void exibe(node *LISTA)
 	node *tmp;
 	tmp = LISTA->prox;
 	printf("Lista:");
-	while( tmp != NULL){
+	while(tmp != NULL) {
 		printf("%5d", tmp->num);
 		tmp = tmp->prox;
 	}
 	printf("\n        ");
 	int count;
-	for(count=0 ; count < tam ; count++)
+	for(count=0 ; count < tam ; count++) {
 		printf("  ^  ");
+	}
 	printf("\nOrdem:");
-	for(count=0 ; count < tam ; count++)
+	for(count=0 ; count < tam ; count++) {
 		printf("%5d", count+1);
-
+	}
 
 	printf("\n\n");
 }
 
-void libera(node *LISTA)
-{
-	if(!vazia(LISTA)){
+void libera(node *LISTA) {
+	if(!vazia(LISTA)) {
 		node *proxNode,
 			  *atual;
 
 		atual = LISTA->prox;
-		while(atual != NULL){
+		while(atual != NULL) {
 			proxNode = atual->prox;
 			free(atual);
 			atual = proxNode;
@@ -209,22 +212,21 @@ void libera(node *LISTA)
 	}
 }
 
-void insere(node *LISTA)
-{
+void insere(node *LISTA) {
 	int pos,
 		 count;
 	printf("Em que posicao, [de 1 ate %d] voce deseja inserir: ", tam);
 	scanf("%d", &pos);
 
-	if(pos>0 && pos <= tam){
-		if(pos==1)
+	if(pos>0 && pos <= tam) {
+		if(pos==1){
 			insereInicio(LISTA);
-		else{
+		} else {
 			node *atual = LISTA->prox,
 				  *anterior=LISTA;
 			node *novo=aloca();
 
-			for(count=1 ; count < pos ; count++){
+			for(count=1 ; count < pos ; count++) {
 				anterior=atual;
 				atual=atual->prox;
 			}
@@ -233,16 +235,15 @@ void insere(node *LISTA)
 			tam++;
 		}
 
-	}else
+	} else
 		printf("Elemento invalido\n\n");
 }
 
-node *retiraInicio(node *LISTA)
-{
-	if(LISTA->prox == NULL){
+node *retiraInicio(node *LISTA) {
+	if(LISTA->prox == NULL) {
 		printf("Lista ja esta vazia\n");
 		return NULL;
-	}else{
+	} else {
 		node *tmp = LISTA->prox;
 		LISTA->prox = tmp->prox;
 		tam--;
@@ -251,16 +252,15 @@ node *retiraInicio(node *LISTA)
 
 }
 
-node *retiraFim(node *LISTA)
-{
-	if(LISTA->prox == NULL){
+node *retiraFim(node *LISTA) {
+	if(LISTA->prox == NULL) {
 		printf("Lista ja vazia\n\n");
 		return NULL;
-	}else{
+	} else {
 		node *ultimo = LISTA->prox,
 			  *penultimo = LISTA;
 
-		while(ultimo->prox != NULL){
+		while(ultimo->prox != NULL) {
 			penultimo = ultimo;
 			ultimo = ultimo->prox;
 		}
@@ -271,21 +271,20 @@ node *retiraFim(node *LISTA)
 	}
 }
 
-node *retira(node *LISTA)
-{
+node *retira(node *LISTA) {
 	int opt,
 		 count;
 	printf("Que posicao, [de 1 ate %d] voce deseja retirar: ", tam);
 	scanf("%d", &opt);
 
-	if(opt>0 && opt <= tam){
+	if(opt>0 && opt <= tam) {
 		if(opt==1)
 			return retiraInicio(LISTA);
-		else{
+		else {
 			node *atual = LISTA->prox,
 				  *anterior=LISTA;
 
-			for(count=1 ; count < opt ; count++){
+			for(count=1 ; count < opt ; count++) {
 				anterior=atual;
 				atual=atual->prox;
 			}
@@ -295,7 +294,7 @@ node *retira(node *LISTA)
 			return atual;
 		}
 
-	}else{
+	} else {
 		printf("Elemento invalido\n\n");
 		return NULL;
 	}
