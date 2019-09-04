@@ -2,7 +2,7 @@
 # include <stdlib.h>
 # include <string.h>
 
-int main() {
+int main(int argc, char *argv[]) {
 
 	struct Disciplina {
 		char professor[50];
@@ -215,6 +215,120 @@ int main() {
 		printf("NEXT:  %p\n", atual->next);
 		atual = atual->next;
 	}
+
+	// ===== UNION =====
+	union Char_int {
+		char letra1;
+		char letra2;
+		int valor;
+	};
+
+	union Char_int x;
+	x.valor = 3;
+
+	// ===== ENUM =====
+	enum Dias {
+		dom, seg, ter, quar, quin, sex, sab
+			//0   1    2    3     4     5    6
+	};
+
+	enum Dias dias_semana;
+
+	// ===== EXAMPLE =====
+	struct Clubes {
+		char xadrez: 1;
+		char damas: 1;
+	};
+
+	struct Clubes clube[16000];
+
+	// ===== TYPEDEF =====
+	// alias
+	typedef char BYTE;
+
+	BYTE byte1 = 'A';
+
+	struct One {
+		int v;
+		char l;
+	};
+
+	typedef struct One OneDef;
+	OneDef one;
+
+	printf("\n====================\n\n");
+
+	one.v = 2;
+	printf("%i %c\n", one.v, byte1);
+
+	// ===== TERMINAL AGRS =====
+	// argc = qnt de argumentos
+	// argv = argumentos
+
+	printf("\n====================\n\n");
+
+	for(int i = 0; i < argc; i++) {
+		printf("%s ", argv[i]);
+	}
+
+	/*
+	 * ===== ARQUIVOS =====
+	 *
+	 * CARACTER
+	 * getc()
+	 * putc()
+	 *
+	 * FORMATADA
+	 * fscanf()
+	 * fprintf()
+	 *
+	 * STRING
+	 * fgets() - leitura de linha completa (adiciona `\n\0` no final)
+	 * fputs()
+	 *
+	 * REGISTRO
+	 * fread()
+	 * fwrite()
+	 *
+	 * BAIXO NÍVEL
+	 * read()
+	 * write()
+	 * BYTES
+	 *
+	 * stdin() - teclado
+	 * stdout() - vídeo
+	 *
+	 */
+
+	// Copy content of a file to another
+	printf("\n====================\n\n");
+	FILE *source_file, *dest_file;
+	int ch;
+
+	if(argc != 3) {
+		fprintf(stdout, "uso: fcopy source dest");
+		exit(EXIT_FAILURE);
+	}
+
+	if((source_file = fopen(argv[1], "rb")) == NULL) {
+		fprintf(stdout, "ERRO AO ABRIR O ARQUIVO %s\n", argv[1]);
+		exit(EXIT_FAILURE);
+	}
+
+	// "w" sobreescreve e cria se o arquivo não existe
+	if((dest_file = fopen(argv[2], "wb")) == NULL) {
+		fprintf(stdout, "ERRO AO CRIAR E ESCREVER NO ARQUIVO %s\n", argv[2]);
+		exit(EXIT_FAILURE);
+	}
+
+	while((ch = getc(source_file)) != EOF) {
+		putc(ch, dest_file);
+	}
+
+	fclose(source_file);
+	fclose(dest_file);
+
+	// ===== BLOCK I/O =====
 
 	return 0;
 }
