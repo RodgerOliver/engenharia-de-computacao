@@ -31,3 +31,17 @@
 ### [Lógica Digital Aplicada](2-semestre/disciplinas/logica-digital-aplicada.md)
 
 ### [Paradigmas De Programação](2-semestre/disciplinas/paradigmas-de-programacao.md)
+
+## 3º Semestre
+
+### [Arquitetura De Computadores](3-semestre/disciplinas/arquitetura-de-computadores.md)
+
+### [Cálculo Diferencial e Integral (Limites E Derivadas)](3-semestre/disciplinas/calculo.md)
+
+### [Eletricidade Aplicada](3-semestre/disciplinas/eletricidade-aplicada.md)
+
+### [Física Cinemática e Dinâmica](3-semestre/disciplinas/fisica-cinematica-dinamica.md)
+
+### [Física Experimental (Teoria Dos Erros Gráficos)](3-semestre/disciplinas/fisica-experimental.md)
+
+### [Linguagem Orientada a Objetos 1](3-semestre/disciplinas/linguagem-orientada-objeto-1.md)
