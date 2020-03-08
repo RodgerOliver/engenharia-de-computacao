@@ -9,7 +9,8 @@
  */
 
 public class HelloWorld {
-	public static void main(String[] args) {
+	/* static para executar o método sem a necessidade de instanciar */
+	public static void main() {
 		System.out.println("Hello World!");
 	}
 }
@@ -18,4 +19,7 @@ public class HelloWorld {
  * $ # run in bash
  * $ javac HelloWorld.java
  * $ java HelloWorld
+ *
+ * $ # or run this one
+ * $ javac Main.java -d classes && java -cp class/ Main
  */

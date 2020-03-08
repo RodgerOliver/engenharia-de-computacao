@@ -9,7 +9,7 @@ public class Disciplina {
 		return faltas;
 	}
 
-	// métodos set (setam variáveis privadas)
+	/* métodos set (setam variáveis privadas) */
 	public void setNomeDisciplina(String novo_nome_disciplina) {
 		this.nomeDisciplina = novo_nome_disciplina;
 	}
@@ -18,7 +18,7 @@ public class Disciplina {
 		this.chDisciplina = nova_carga_disciplina;
 	}
 
-	// métodos get (obtem variáveis privadas)
+	/* métodos get (obtem variáveis privadas) */
 	public String getNomeDisciplina() {
 		return this.nomeDisciplina;
 	}
