@@ -1,6 +1,12 @@
 /*
  *
- * Constructor is called when a class is instanciated
+ * Constructor characteristics:
+ * - called when an object is instantiated
+ * - name is the same of the class' name
+ * - has no return value and type
+ * - if not declared, Java sets it as empty
+ * - if declared, the empty constructor is gone
+ * - constructors van be overloaded
  *
  */
 
@@ -9,7 +15,7 @@ public class Atleta {
 	private float peso;
 	private float altura;
 
-	/* contructor */
+	/* constructor */
 	public Atleta(String nome, float peso, float altura) {
 		this.setNome(nome);
 		this.setPeso(peso);
