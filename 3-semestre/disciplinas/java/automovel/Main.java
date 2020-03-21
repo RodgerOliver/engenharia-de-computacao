@@ -27,11 +27,17 @@ class Main {
 		String modelo = modelo_field.getText();
 		String cor = cor_field.getText();
 		String combustivel = combustivel_field.getText();
-		int ano = Integer.parseInt(ano_field.getText());
-		float preco = Float.parseFloat(preco_field.getText());
+		String ano = ano_field.getText();
+		String preco = preco_field.getText();
 
 		/* create object */
-		Automovel carro1 = new Automovel(marca, modelo, cor, combustivel, ano, preco);
+		Automovel carro1 = null;
+		try {
+			carro1 = new Automovel(marca, modelo, cor, combustivel, ano, preco);
+		} catch(Exception e) {
+			JOptionPane.showMessageDialog(null, e, app_name, 1);
+			return;
+		}
 
 		String output = carro1.toString();
 		output += "\n\nO preço final do seu carro é: R$" + carro1.quantoCusta();

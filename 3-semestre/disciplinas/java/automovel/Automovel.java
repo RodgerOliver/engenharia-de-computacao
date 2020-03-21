@@ -8,13 +8,26 @@ class Automovel {
 	private float preco;
 
 	/* constructor */
-	public Automovel(String marca, String modelo, String cor, String combustivel, int ano, float preco) {
+	public Automovel(String marca, String modelo, String cor, String combustivel, String ano, String preco) throws Exception {
 		setMarca(marca);
 		setModelo(modelo);
 		setCor(cor);
-		setAno(ano);
-		setCombustivel(combustivel);
-		setPreco(preco);
+
+		boolean ok_preco = setPreco(preco);
+		if(!ok_preco) {
+			throw new Exception("Preço não é um número.");
+		}
+
+		boolean ok_ano = setAno(ano);
+		if(!ok_ano) {
+			throw new Exception("Ano não é um número.");
+		}
+
+		boolean ok_com = setCombustivel(combustivel);
+		if(!ok_com) {
+			throw new Exception("Combustível não permitido.");
+		}
+
 	}
 
 	/* methods */
@@ -63,16 +76,32 @@ class Automovel {
 		this.cor = cor;
 	}
 
-	public void setAno(int ano) {
-		this.ano = ano;
+	public boolean setAno(String ano) {
+		if(isInteger(ano)) {
+			this.ano = Integer.parseInt(ano);
+			return true;
+		}
+		return false;
 	}
 
-	public void setCombustivel(String combustivel) {
-		this.combustivel = combustivel;
+	public boolean setCombustivel(String combustivel) {
+		String[] combustiveis_permitidos = {"GNV", "Gasolina", "Alcool", "Flex", "Diesel"};
+
+		for(String c: combustiveis_permitidos) {
+			if(c.equalsIgnoreCase(combustivel)) {
+				this.combustivel = c;
+				return true;
+			}
+		}
+		return false;
 	}
 
-	public void setPreco(float preco) {
-		this.preco = preco;
+	public boolean setPreco(String preco) {
+		if(isFloat(preco)) {
+			this.preco = Float.parseFloat(preco);
+			return true;
+		}
+		return false;
 	}
 
 	/* getters */
@@ -98,6 +127,35 @@ class Automovel {
 
 	public float getPreco() {
 		return this.preco;
+	}
+
+	/* aux */
+	public static boolean isInteger(Object object) {
+		if(object instanceof Integer) {
+			return true;
+		} else {
+			String string = object.toString();
+			try {
+				Integer.parseInt(string);
+			} catch(Exception e) {
+				return false;
+			}
+		}
+		return true;
+	}
+
+	public static boolean isFloat(Object object) {
+		if(object instanceof Integer) {
+			return true;
+		} else {
+			String string = object.toString();
+			try {
+				Float.parseFloat(string);
+			} catch(Exception e) {
+				return false;
+			}
+		}
+		return true;
 	}
 }
 
