@@ -77,7 +77,7 @@ class Automovel {
 	}
 
 	public boolean setAno(String ano) {
-		if(isInteger(ano)) {
+		if(Basic.isInteger(ano)) {
 			this.ano = Integer.parseInt(ano);
 			return true;
 		}
@@ -97,7 +97,7 @@ class Automovel {
 	}
 
 	public boolean setPreco(String preco) {
-		if(isFloat(preco)) {
+		if(Basic.isFloat(preco)) {
 			this.preco = Float.parseFloat(preco);
 			return true;
 		}
@@ -127,35 +127,6 @@ class Automovel {
 
 	public float getPreco() {
 		return this.preco;
-	}
-
-	/* aux */
-	public static boolean isInteger(Object object) {
-		if(object instanceof Integer) {
-			return true;
-		} else {
-			String string = object.toString();
-			try {
-				Integer.parseInt(string);
-			} catch(Exception e) {
-				return false;
-			}
-		}
-		return true;
-	}
-
-	public static boolean isFloat(Object object) {
-		if(object instanceof Integer) {
-			return true;
-		} else {
-			String string = object.toString();
-			try {
-				Float.parseFloat(string);
-			} catch(Exception e) {
-				return false;
-			}
-		}
-		return true;
 	}
 }
 
