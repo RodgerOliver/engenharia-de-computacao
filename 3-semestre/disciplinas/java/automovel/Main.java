@@ -1,7 +1,4 @@
 import javax.swing.*;
-import java.util.Map;
-import java.util.HashMap;
-import java.util.Iterator;
 
 class Main {
 	public static void main(String[] args) {
@@ -43,10 +40,14 @@ class Main {
 		}
 
 		String output = "Informações do Carro\n";
-
-		HashMap<String, Object> map = carro1.retornaInfo();
-		for(Map.Entry<String, Object> info : map.entrySet()) {
-			output += "\n" + info.getKey() + ": " + info.getValue();
+		int i = -1;
+		for(Object info: carro1.retornaInfo()) {
+			i++;
+			if(i % 2 == 0) {
+				output += "\n" + info + ": ";
+				continue;
+			}
+			output += info;
 		}
 
 		output += "\n\nO preço final do seu carro é: R$" + carro1.quantoCusta();

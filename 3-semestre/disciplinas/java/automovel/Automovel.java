@@ -1,6 +1,3 @@
-import java.util.Map;
-import java.util.HashMap;
-
 class Automovel {
 	/* attributes */
 	private String marca;
@@ -34,14 +31,11 @@ class Automovel {
 	}
 
 	/* methods */
-	public HashMap<String, Object> retornaInfo() {
-		HashMap<String, Object> info = new HashMap<String, Object>();
-		info.put("Marca", this.marca);
-		info.put("Modelo", this.modelo);
-		info.put("Cor", this.cor);
-		info.put("Combustivel", this.combustivel);
-		info.put("Ano", this.ano);
-		info.put("Preco", this.preco);
+	public Object[] retornaInfo() {
+		Object[] info = {
+			"Marca", this.marca, "Modelo", this.modelo, "Cor", this.cor,
+			"Combustivel", this.combustivel, "Ano", this.ano, "Preco", this.preco
+		};
 
 		return info;
 	}
