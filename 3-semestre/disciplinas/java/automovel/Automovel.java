@@ -31,14 +31,13 @@ class Automovel {
 	}
 
 	/* methods */
-	public String toString() {
-		return
-		"Marca: "         + this.marca       +
-		"\nModelo: "      + this.modelo      +
-		"\nCor: "         + this.cor         +
-		"\nCombustivel: " + this.combustivel +
-		"\nAno: "         + this.ano         +
-		"\nPreço: "       + this.preco;
+	public Object[] retornaInfo() {
+		Object[] info = {
+			"Marca", this.marca, "Modelo", this.modelo, "Cor", this.cor,
+			"Combustivel", this.combustivel, "Ano", this.ano, "Preco", this.preco
+		};
+
+		return info;
 	}
 
 	public double quantoCusta() {

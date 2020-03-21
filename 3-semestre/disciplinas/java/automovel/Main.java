@@ -39,7 +39,17 @@ class Main {
 			return;
 		}
 
-		String output = carro1.toString();
+		String output = "Informações do Carro\n";
+		int i = -1;
+		for(Object info: carro1.retornaInfo()) {
+			i++;
+			if(i % 2 == 0) {
+				output += "\n" + info + ": ";
+				continue;
+			}
+			output += info;
+		}
+
 		output += "\n\nO preço final do seu carro é: R$" + carro1.quantoCusta();
 
 		JOptionPane.showMessageDialog(null, output, app_name, 1);
