@@ -9,3 +9,5 @@ redirect_from: "/3-semestre/linguagem-orientada-objeto-1/"
 ## Java
 
 Um guia para a linguagem [Java](java/JAVA.md) foi criado.
+
+Os exercícios feitos em sala estão em `3-semestre/disciplinas/java/`.
