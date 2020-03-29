@@ -23,6 +23,7 @@ Commands used to develop are bellow:
 - `javac Main.java`: compile the source code
 - `jar cvfm Main.jar Manifest Main.class`: create an executable Java file (`.jar`)
 - `java -jar Main.jar`: run Java executable
+- `echo '#!/usr/bin/java -jar' > app && cat Main.jar >> app && chmod +x app`: create an executable for Linux
 
 **JRE** is the basic component of Java that allows Java programs to be executed.
 Is the Java Virtual machine where the code will run.
