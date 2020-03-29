@@ -7,6 +7,18 @@ Java is a high-level language, platform independent owned by Oracle.
 Java source code remains in `*.java` files, the compiled code remains in `*.class` files.
 
 **JDK** is the Source Development Kit for Java that allows to create executable Java files from source code.
+
+The `Manifest` file contains information about the packaged in a JAR file.
+Bellow is an example of one:
+
+```
+Main-Class: Main
+Manifest-Version: 1.0
+Created-By: Bob
+Package-Name: App
+Class-Path: classes/
+```
+
 Commands used to develop are bellow:
 - `javac Main.java`: compile the source code
 - `jar cvfm Main.jar Manifest Main.class`: create an executable Java file (`.jar`)
