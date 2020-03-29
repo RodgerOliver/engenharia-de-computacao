@@ -2,6 +2,22 @@
 
 Java is a high-level language, platform independent owned by Oracle.
 
+## Basics
+
+Java source code remains in `*.java` files, the compiled code remains in `*.class` files.
+
+**JDK** is the Source Development Kit for Java that allows to create executable Java files from source code.
+Commands used to develop are bellow:
+- `javac Main.java`: compile the source code
+- `jar cvfm Main.jar Manifest Main.class`: create an executable Java file (`.jar`)
+- `java -jar Main.jar`: run Java executable
+
+**JRE** is the basic component of Java that allows Java programs to be executed.
+Is the Java Virtual machine where the code will run.
+Use `java Main` to execute a class.
+
+In Linux the packages needed are `default-jre default-jdk`.
+
 ## Hello World
 
 ```
