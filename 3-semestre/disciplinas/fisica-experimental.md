@@ -6,6 +6,16 @@ redirect_from: "/3-semestre/fisica-experimental/"
 
 # Física Experimental (Teoria Dos Erros Gráficos) - Prof. Ruy
 
+```
+1,41525 x 10³ correto
+
+1,41525 . 10³ errado
+
+a . b correto
+
+a x b correto
+```
+
 ## Sistema Internacional de Medidas (SI)
 
 ### História
