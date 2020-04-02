@@ -31,6 +31,12 @@ Use `java Main` to execute a class.
 
 In Linux the packages needed are `default-jre default-jdk`.
 
+### Naming Conventions
+
+- camelCase
+- PascalCase
+- snake_case
+
 ## Hello World
 
 ```
