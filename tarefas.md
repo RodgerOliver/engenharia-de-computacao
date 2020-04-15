@@ -13,7 +13,7 @@ Cálculo                      | livro pg 72-75               | 17/04 | EVA    | 
 Cálculo                      | livro pg 79-80               | 22/04 | EVA    | http://eva.unitau.br/mod/assign/view.php?id=44730
 Cálculo                      | livro pg 90-93               | 04/05 | EVA    | http://eva.unitau.br/mod/assign/view.php?id=44734
 Física Experimental          | histograma                   | 20/04 | Email  | --
-Arquitetura de Computadores  | atividade do dia 03/04       | 17/04 | Email  | --
+Arquitetura de Computadores  | atividade do dia 03/04       | 24/04 | Email  | --
 Arquitetura de Computadores  | atividade do dia 17/04       | 24/04 | Email  | --
 Elétrica                     | associação resistores        | 20/04 | Email  | --
 Física Cinemática e Dinâmica | execício sobre vetores       | 15/04 | Teams  | --
