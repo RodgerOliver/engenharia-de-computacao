@@ -43,13 +43,14 @@ public class Main {
 		if(tipo_conta.equals(categorias[0])) {
 			conta = new ContaCorrente(titular, numero_da_conta);
 		} else {
-			// aceitar vazio
-			double limite = Double.parseDouble(JOptionPane.showInputDialog(null, "Digite o limite caso deseje", app_name, 1));
-			if(limite <= 0.0) {
-				conta = new ContaEspecial(titular, numero_da_conta);
-			} else {
+			int get_limite = JOptionPane.showConfirmDialog(null, "Deseja colocar um limite específico?", app_name, JOptionPane.YES_NO_OPTION);
+			if(get_limite == 0) {
+				double limite = Double.parseDouble(JOptionPane.showInputDialog(null, "Digite o limite", app_name, 1));
 				conta = new ContaEspecial(titular, numero_da_conta, limite);
+			} else {
+				conta = new ContaEspecial(titular, numero_da_conta);
 			}
+			// obter limite
 		}
 
 		/* make actions */
