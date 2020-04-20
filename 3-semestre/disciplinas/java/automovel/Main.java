@@ -23,6 +23,11 @@ class Main {
 
 		int option = JOptionPane.showConfirmDialog(null, message, "Cadastro de Carro", JOptionPane.OK_CANCEL_OPTION);
 
+		if(option != 0) {
+			JOptionPane.showMessageDialog(null, "Programa Encerrado", app_name, 1);
+			System.exit(0);
+		}
+
 		String marca = marca_field.getText();
 		String modelo = modelo_field.getText();
 		String cor = cor_field.getText();
@@ -36,7 +41,7 @@ class Main {
 			carro1 = new Automovel(marca, modelo, cor, combustivel, ano, preco);
 		} catch(Exception e) {
 			JOptionPane.showMessageDialog(null, e, app_name, 1);
-			return;
+			System.exit(0);
 		}
 
 		String output = "Informações do Carro\n";

@@ -12,20 +12,21 @@ class Automovel {
 		setMarca(marca);
 		setModelo(modelo);
 		setCor(cor);
+		String error = "";
 
-		boolean ok_preco = setPreco(preco);
-		if(!ok_preco) {
-			throw new Exception("Preço não é um número.");
+		// verificação de inputs
+		if(!setPreco(preco)) {
+			error += " preço";
+		}
+		if(!setAno(ano)) {
+			error += " ano";
+		}
+		if(!setCombustivel(combustivel)) {
+			error += " combustível";
 		}
 
-		boolean ok_ano = setAno(ano);
-		if(!ok_ano) {
-			throw new Exception("Ano não é um número.");
-		}
-
-		boolean ok_com = setCombustivel(combustivel);
-		if(!ok_com) {
-			throw new Exception("Combustível não permitido.");
+		if(!error.equals("")) {
+			throw new Exception("Informações Inválidas:" + error);
 		}
 
 	}
