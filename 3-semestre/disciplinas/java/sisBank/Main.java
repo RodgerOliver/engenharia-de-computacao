@@ -7,13 +7,17 @@ public class Main {
 		/* make form */
 		String categorias[] = {"Conta Corrente", "Conta Especial"};
 
-		JTextField titular_field         = new JTextField();
+		JTextField sobrenome_field       = new JTextField();
+		JTextField nome_field            = new JTextField();
+		JTextField cpf_field             = new JTextField();
 		JTextField numero_da_conta_field = new JTextField();
 		JComboBox tipo_conta_field       = new JComboBox(categorias);
 		tipo_conta_field.setSelectedIndex(0);
 
 		Object[] message = {
-			"Titular:", titular_field,
+			"Nome:", nome_field,
+			"Sobrenome:", sobrenome_field,
+			"CPF:", cpf_field,
 			"Numero Da Conta:", numero_da_conta_field,
 			"Tipo da conta:", tipo_conta_field
 		};
@@ -28,12 +32,14 @@ public class Main {
 		}
 
 		/* get info */
-		String titular = titular_field.getText();
+		String nome = nome_field.getText();
+		String sobrenome = sobrenome_field.getText();
+		String cpf = cpf_field.getText();
 		String numero_da_conta = numero_da_conta_field.getText();
 		String tipo_conta = (String)tipo_conta_field.getSelectedItem();
 
 		/* validade info */
-		if(titular.equals("") || numero_da_conta.equals("") || tipo_conta.equals("")) {
+		if(nome.equals("") || sobrenome.equals("") || cpf.equals("") || numero_da_conta.equals("") || tipo_conta.equals("")) {
 			JOptionPane.showMessageDialog(null, "Parâmetros Inválidos", app_name, 1);
 			System.exit(0);
 		}
@@ -41,21 +47,21 @@ public class Main {
 		/* create object */
 		ContaCorrente conta = null;
 		if(tipo_conta.equals(categorias[0])) {
-			conta = new ContaCorrente(titular, numero_da_conta);
+			conta = new ContaCorrente(nome, sobrenome, cpf, numero_da_conta);
 		} else {
 			int get_limite = JOptionPane.showConfirmDialog(null, "Deseja colocar um limite específico?", app_name, JOptionPane.YES_NO_OPTION);
 			if(get_limite == 0) {
 				double limite = Double.parseDouble(JOptionPane.showInputDialog(null, "Digite o limite", app_name, 1));
-				conta = new ContaEspecial(titular, numero_da_conta, limite);
+				conta = new ContaEspecial(nome, sobrenome, cpf, numero_da_conta, limite);
 			} else {
-				conta = new ContaEspecial(titular, numero_da_conta);
+				conta = new ContaEspecial(nome, sobrenome, cpf, numero_da_conta);
 			}
 			// obter limite
 		}
 
 		/* make actions */
 		int action;
-		String acoes[] = {"Sacar", "Depositar", "Mostrar Dados"};
+		String acoes[] = {"Sacar", "Depositar", "Mostrar Dados Bancários", "Mostrar Dados do Correntista"};
 		JComboBox acao_field = new JComboBox(acoes);
 		acao_field.setSelectedIndex(0);
 
@@ -78,8 +84,10 @@ public class Main {
 				conta.guiSacar();
 			} else if(acao.equals(acoes[1])) {
 				conta.guiDepositar();
-			} else {
+			} else if(acao.equals(acoes[2])){
 				JOptionPane.showMessageDialog(null, conta.dados(), app_name, 1);
+			} else {
+				JOptionPane.showMessageDialog(null, conta.titular.dados(), app_name, 1);
 			}
 
 		}

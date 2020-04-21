@@ -4,13 +4,13 @@ class ContaCorrente {
 	// repetição de código
 	String app_name = "ContaCorrente v.1.0";
 	/* attributes */
-	protected String titular;
+	protected Pessoa titular;
 	protected String numero_da_conta;
 	protected double saldo;
 
 	/* constructor */
-	public ContaCorrente(String titular, String numero_da_conta) {
-		this.titular = titular;
+	public ContaCorrente(String nome, String sobrenome, String cpf, String numero_da_conta) {
+		this.titular = new Pessoa(nome, sobrenome, cpf);
 		this.numero_da_conta = numero_da_conta;
 		this.saldo = 0.0;
 	}
@@ -38,7 +38,7 @@ class ContaCorrente {
 
 	public String dados() {
 		return "Informações Bancárias\n"
-			+ "\nTitular: " + this.titular
+			+ "\nTitular: " + this.titular.nomeCompleto()
 			+ "\nConta: " + this.numero_da_conta
 			+ "\nSaldo: R$" + this.saldo;
 	}
@@ -57,8 +57,10 @@ class ContaCorrente {
 	}
 
 	/* setters */
-	public void setTitular(String titular) {
-		this.titular = titular;
+	public void setTitular(String nome, String sobrenome, String cpf) {
+		this.titular.setNome(nome);
+		this.titular.setSobrenome(sobrenome);
+		this.titular.setCpf(cpf);
 	}
 
 	public void setNumero_da_conta(String numero_da_conta) {
@@ -67,7 +69,7 @@ class ContaCorrente {
 
 	/* getters */
 	public String getTitular() {
-		return this.titular;
+		return this.titular.dados();
 	}
 
 	public String getNumero_da_conta() {
