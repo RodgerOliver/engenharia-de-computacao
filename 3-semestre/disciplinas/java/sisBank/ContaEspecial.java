@@ -32,7 +32,7 @@ class ContaEspecial extends ContaCorrente {
 	public String dados() {
 		double saldo_total = this.saldo + this.limite;
 		return "Informações Bancárias\n"
-			+ "\nTitular: " + this.titular.nomeCompleto()
+			+ "\nTitular: " + this.titular
 			+ "\nConta: " + this.numero_da_conta
 			+ "\nSaldo: R$" + this.saldo
 			+ "\nLimite: R$" + this.limite

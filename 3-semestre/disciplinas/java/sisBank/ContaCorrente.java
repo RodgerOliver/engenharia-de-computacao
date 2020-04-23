@@ -38,7 +38,7 @@ class ContaCorrente {
 
 	public String dados() {
 		return "Informações Bancárias\n"
-			+ "\nTitular: " + this.titular.nomeCompleto()
+			+ "\nTitular: " + this.titular
 			+ "\nConta: " + this.numero_da_conta
 			+ "\nSaldo: R$" + this.saldo;
 	}

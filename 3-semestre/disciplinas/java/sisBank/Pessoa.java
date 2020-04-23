@@ -12,7 +12,7 @@ class Pessoa {
 	}
 
 	/* methods */
-	public String nomeCompleto() {
+	public String toString() {
 		return this.nome + " " + this.sobrenome;
 	}
 
