@@ -11,6 +11,11 @@ class Pessoa {
 		this.cpf = cpf;
 	}
 
+	public Pessoa(String nome, String sobrenome) {
+		this.nome = nome;
+		this.sobrenome = sobrenome;
+	}
+
 	/* methods */
 	public String toString() {
 		return this.nome + " " + this.sobrenome;
