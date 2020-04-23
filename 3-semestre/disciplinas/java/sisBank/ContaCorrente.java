@@ -9,8 +9,8 @@ class ContaCorrente {
 	protected double saldo;
 
 	/* constructor */
-	public ContaCorrente(String nome, String sobrenome, String cpf, String numero_da_conta) {
-		this.titular = new Pessoa(nome, sobrenome, cpf);
+	public ContaCorrente(Pessoa titular, String numero_da_conta) {
+		this.titular = titular;
 		this.numero_da_conta = numero_da_conta;
 		this.saldo = 0.0;
 	}

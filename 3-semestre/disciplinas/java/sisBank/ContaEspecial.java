@@ -3,13 +3,13 @@ class ContaEspecial extends ContaCorrente {
 	private double limite; // cheque especial
 
 	/* constructor */
-	public ContaEspecial(String nome, String sobrenome, String cpf, String numero_da_conta, double limite) {
-		super(nome, sobrenome, cpf, numero_da_conta);
+	public ContaEspecial(Pessoa titular, String numero_da_conta, double limite) {
+		super(titular, numero_da_conta);
 		this.limite = limite;
 	}
 
-	public ContaEspecial(String nome, String sobrenome, String cpf, String numero_da_conta) {
-		super(nome, sobrenome, cpf, numero_da_conta);
+	public ContaEspecial(Pessoa titular, String numero_da_conta) {
+		super(titular, numero_da_conta);
 		this.limite = 2000;
 	}
 
