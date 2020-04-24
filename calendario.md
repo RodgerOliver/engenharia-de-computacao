@@ -4,7 +4,9 @@ redirect_from: "/3-semestre/"
 
 # [Home](/engenharia-de-computacao/)
 
-# Tarefas
+# Calendário
+
+## Tarefas
 
 Disciplina                   | Descrição                    | Data  | Método | Link
 ---------------------------- | ---------------------------- | ----- | ------ | -------------------------------
@@ -19,7 +21,6 @@ Física Experimental          | calculadora                  | 12/05 | EVA    | 
 Física Experimental          | SI                           | 12/05 | EVA    | [link](http://eva.unitau.br/mod/assign/view.php?id=51017)
 Java                         | lista de exercícios          | --/-- | ---    | --
 
-
 Disciplina                   | Descrição                    | Data  | Método | Link
 ---------------------------- | ---------------------------- | ----- | ------ | -------------------------------
 Física Cinemática e Dinâmica | execício sobre vetores       | 15/04 | Teams  | --
@@ -27,3 +28,10 @@ Física Cinemática e Dinâmica | execício movimento projéteis | 15/04 | Teams
 Cálculo                      | livro a partir pg 60         | 17/04 | EVA    | [link](http://eva.unitau.br/mod/assign/view.php?id=44708)
 Cálculo                      | livro pg 72-75               | 17/04 | EVA    | [link](http://eva.unitau.br/mod/assign/view.php?id=44721)
 Física Cinemática e Dinâmica | execício leis de Newton      | 19/04 | Teams  | --
+
+## Conteúdos
+
+Disciplina                   | Conteúdo                     | Data
+---------------------------- | ---------------------------- | -----
+Java                         | revisão da matéria           | 14/05
+Java                         | avaliação prática            | 21/05

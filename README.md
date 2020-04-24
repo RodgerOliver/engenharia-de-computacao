@@ -32,7 +32,7 @@
 
 ### [Paradigmas De Programação](2-semestre/disciplinas/paradigmas-de-programacao.md)
 
-## 3º Semestre ([Tarefas](tarefas.md))
+## 3º Semestre ([Calendário](calendario.md))
 
 ### [Arquitetura De Computadores](3-semestre/disciplinas/arquitetura-de-computadores.md)
 
