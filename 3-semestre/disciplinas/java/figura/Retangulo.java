@@ -22,11 +22,11 @@ class Retangulo extends Figura {
 	}
 
 	/* setters */
-	public void setLado1(double comprimento) {
+	public void setComprimento(double comprimento) {
 		this.comprimento = comprimento;
 	}
 
-	public void setLado2(double largura) {
+	public void setLargura(double largura) {
 		this.largura = largura;
 	}
 
