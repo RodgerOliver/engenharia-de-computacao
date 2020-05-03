@@ -10,10 +10,13 @@ redirect_from: "/3-semestre/"
 
 Disciplina                   | Descrição                    | Data  | Método | Link
 ---------------------------- | ---------------------------- | ----- | ------ | -------------------------------
+Física Cinemática e Dinâmica | exercício dinamica partícula | 03/04 | Teams  | --
 Cálculo                      | livro pg 90-93               | 04/05 | EVA    | [link](http://eva.unitau.br/mod/assign/view.php?id=44734)
 Física Experimental          | histograma                   | 12/05 | EVA    | [link](http://eva.unitau.br/mod/assign/view.php?id=51022)
 Física Experimental          | calculadora                  | 12/05 | EVA    | [link](http://eva.unitau.br/mod/assign/view.php?id=51019)
 Física Experimental          | SI                           | 12/05 | EVA    | [link](http://eva.unitau.br/mod/assign/view.php?id=51017)
+Física Cinemática e Dinâmica | exercício dinamica partícula | 13/04 | Teams  | --
+Cálculo                      | livro pg 183                 | 18/05 | EVA    | [link](http://eva.unitau.br/mod/assign/view.php?id=58508)
 Java                         | lista de exercícios          | --/-- | ---    | --
 
 ### Tarefas Passadas
