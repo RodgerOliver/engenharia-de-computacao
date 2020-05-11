@@ -13,10 +13,12 @@ Disciplina                   | Descrição                    | Data  | Método 
 Física Experimental          | histograma                   | 12/05 | EVA    | [link](http://eva.unitau.br/mod/assign/view.php?id=51022)
 Física Experimental          | calculadora                  | 12/05 | EVA    | [link](http://eva.unitau.br/mod/assign/view.php?id=51019)
 Física Experimental          | SI                           | 12/05 | EVA    | [link](http://eva.unitau.br/mod/assign/view.php?id=51017)
-Física Experimental          | Gaussiana                    | 12/05 | Email  | --
 Física Experimental          | Moeda                        | 12/05 | Email  | --
 Física Cinemática e Dinâmica | exercício dinamica partícula | 13/04 | Teams  | --
+Física Cinemática e Dinâmica | exercício trabalho           | 17/04 | Teams  | --
 Cálculo                      | livro pg 183                 | 18/05 | EVA    | [link](http://eva.unitau.br/mod/assign/view.php?id=58508)
+Física Experimental          | Gaussiana                    | 19/05 | Email  | --
+Física Experimental          | Medição de Comprimento       | 19/05 | Email  | --
 Java                         | lista de exercícios          | --/-- | ---    | --
 
 ### Tarefas Passadas
