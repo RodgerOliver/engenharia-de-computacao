@@ -20,7 +20,8 @@ class Main {
 
 		do {
 			if(jogo.getTentativas() != 0) {
-				num = Integer.parseInt(JOptionPane.showInputDialog(null, "Tente novamente", app_name, 3));
+				int tentativa = jogo.getTentativas() + 1;
+				num = Integer.parseInt(JOptionPane.showInputDialog(null, "Tente novamente ("+ tentativa +"/10)", app_name, 3));
 			}
 			acertou = jogo.acertou(num);
 
