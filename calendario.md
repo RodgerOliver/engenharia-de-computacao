@@ -10,10 +10,7 @@ redirect_from: "/3-semestre/"
 
 Disciplina                   | Descrição                    | Data  | Método | Link
 ---------------------------- | ---------------------------- | ----- | ------ | -------------------------------
-Física Experimental          | Gaussiana                    | 19/05 | EVA    | [link](http://eva.unitau.br/mod/assign/view.php?id=63698)
-Física Experimental          | Medição de Comprimento       | 19/05 | EVA    | [link](http://eva.unitau.br/mod/assign/view.php?id=63704)
-Física Experimental          | Aval Incert Tipo A e B       | 19/05 | EVA    | [link](http://eva.unitau.br/mod/assign/view.php?id=66710)
-Java                         | lista de exercícios          | --/-- | ---    | --
+Java                         | lista de exercícios          | 20/05 | ---    | --
 
 ### Tarefas Passadas
 
@@ -37,6 +34,9 @@ Física Experimental          | SI                           | 12/05 | EVA    | 
 Física Cinemática e Dinâmica | exercício dinamica partícula | 13/05 | Teams  | --
 Física Cinemática e Dinâmica | exercício trabalho           | 17/05 | Teams  | --
 Cálculo                      | livro pg 183                 | 18/05 | EVA    | [link](http://eva.unitau.br/mod/assign/view.php?id=58508)
+Física Experimental          | Gaussiana                    | 19/05 | EVA    | [link](http://eva.unitau.br/mod/assign/view.php?id=63698)
+Física Experimental          | Medição de Comprimento       | 19/05 | EVA    | [link](http://eva.unitau.br/mod/assign/view.php?id=63704)
+Física Experimental          | Aval Incert Tipo A e B       | 19/05 | EVA    | [link](http://eva.unitau.br/mod/assign/view.php?id=66710)
 
 ## Conteúdos
 
