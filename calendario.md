@@ -10,7 +10,9 @@ redirect_from: "/3-semestre/"
 
 Disciplina                   | Descrição                    | Data  | Método | Link
 ---------------------------- | ---------------------------- | ----- | ------ | -------------------------------
-Java                         | lista de exercícios          | 20/05 | ---    | --
+Física Cinemática e Dinâmica | energia cinética             | 26/05 | Teams  | --
+Física Cinemática e Dinâmica | energia mecânica             | 26/05 | Teams  | --
+Elétrica                     | exercício 2,5 pontos         | 26/05 | Email  | --
 
 ### Tarefas Passadas
 
