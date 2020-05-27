@@ -13,6 +13,7 @@ Disciplina                   | Descrição                    | Data  | Método 
 Física Cinemática e Dinâmica | energia cinética             | 26/05 | Teams  | --
 Física Cinemática e Dinâmica | energia mecânica             | 26/05 | Teams  | --
 Elétrica                     | exercício 2,5 pontos         | 26/05 | Email  | --
+Cálculo                      | derivada implicita           | 28/05 | EVA    | [link](http://eva.unitau.br/mod/assign/view.php?id=66473)
 
 ### Tarefas Passadas
 
