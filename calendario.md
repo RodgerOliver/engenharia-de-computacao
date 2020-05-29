@@ -10,16 +10,17 @@ redirect_from: "/3-semestre/"
 
 Disciplina                   | Descrição                    | Data  | Método | Link
 ---------------------------- | ---------------------------- | ----- | ------ | -------------------------------
-Física Cinemática e Dinâmica | energia cinética             | 26/05 | Teams  | --
-Física Cinemática e Dinâmica | energia mecânica             | 26/05 | Teams  | --
-Elétrica                     | exercício 2,5 pontos         | 26/05 | Email  | --
-Física Experimental          | Resultado da Medida          | 27/05 | EVA    | [link](http://eva.unitau.br/mod/assign/view.php?id=71356)
-Cálculo                      | derivada implicita           | 28/05 | EVA    | [link](http://eva.unitau.br/mod/assign/view.php?id=66473)
+Física Cinemática e Dinâmica | 10-aplicações                | 31/05 | Teams  | --
 
 ### Tarefas Passadas
 
 Disciplina                   | Descrição                    | Data  | Método | Link
 ---------------------------- | ---------------------------- | ----- | ------ | -------------------------------
+Cálculo                      | derivada implicita           | 28/05 | EVA    | [link](http://eva.unitau.br/mod/assign/view.php?id=66473)
+Física Experimental          | Resultado da Medida          | 27/05 | EVA    | [link](http://eva.unitau.br/mod/assign/view.php?id=71356)
+Elétrica                     | exercício 2,5 pontos         | 26/05 | Email  | --
+Física Cinemática e Dinâmica | energia mecânica             | 26/05 | Teams  | --
+Física Cinemática e Dinâmica | energia cinética             | 26/05 | Teams  | --
 Física Experimental          | Aval Incert Tipo A e B       | 19/05 | EVA    | [link](http://eva.unitau.br/mod/assign/view.php?id=66710)
 Física Experimental          | Medição de Comprimento       | 19/05 | EVA    | [link](http://eva.unitau.br/mod/assign/view.php?id=63704)
 Física Experimental          | Gaussiana                    | 19/05 | EVA    | [link](http://eva.unitau.br/mod/assign/view.php?id=63698)
